@@ -1,0 +1,102 @@
+# Enable informational messages in console.
+debug: false
+dataStore:
+  type: config
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    user: root
+    pass: ''
+messages:
+  configReload: '&3AR &7» &fConfiguration reloaded!'
+  configDemo: '&3AR &7» &fDemo configuration loaded!'
+  give: '&fGave <player> a mount: <mount>!'
+  permissionDenied: '&cPermission denied!'
+  playerNotFound: '&cPlayer not found!'
+  mountNotFound: '&cMount not found!'
+  mountCooldown: '&cYou must wait before mounting again!'
+  mountRequirement: '&cCannot use mount. '
+  mountPresetNotFound: '&cMount preset not found. Use /mset.'
+  mountPresetInvalid: '&cYou must be riding a mount.'
+  mountPresetSave: '&eMount preset saved!'
+  mountPresetRemove: '&eMount preset removed!'
+  mountCannotRide: '&cYou cannot do that right now!'
+  paymentNotSupported: '&cError: Payment not supported!'
+  mountBuy: '&fYou purchased a mount: <mount>!'
+  mountSell: '&fYou sold a mount: <mount>!'
+  insufficientFunds: '&cYou cannot afford this mount: <mount>!'
+  sellShopTitle: Sell Mount
+  buyShopTitle: Purchase Mount
+  requirements:
+    none: '  &fNone'
+    level:
+      error: '&cYour level is too low.'
+      help: '  <state> &fLevel >= <level>'
+    advancement:
+      help: '  <state> &fAdvancement ''<advancement>'''
+      error: '&cAdvancement not completed.'
+    mcmmo:
+      powerLevel:
+        error: '&cYour power level is too low.'
+        help: '  <state> &fPower Level >= <powerLevel>'
+      skillLevel:
+        error: '&cYour <skill> skill level is too low.'
+        help: '  <state> &f<skill> >= <level>'
+    mmocore:
+      attribute:
+        error: '&cYour <attribute> attribute is too low.'
+        help: '  <state> &f<attribute> >= <level>'
+      class:
+        error: '&cWrong class.'
+        help: '  <state> &fClass <classes>'
+      level:
+        error: '&cYour level is too low.'
+        help: '  <state> &fLevel >= <level>'
+      profession:
+        error: '&cYour <profession> profession level is too low.'
+        help: '  <state> &f<profession> >= <level>'
+    quantumrpg:
+      class:
+        error: '&cWrong class.'
+        help: '  <state> &fClass <classes>'
+      level:
+        error: '&cYour level is too low.'
+        help: '  <state> &fLevel >= <level>'
+    skillapi:
+      class:
+        error: '&cWrong class.'
+        help: '  <state> &fClass <classes>'
+      level:
+        error: '&cYour level is too low.'
+        help: '  <state> &fLevel >= <level>'
+      skillLevel:
+        error: '&cYour <skill> level is too low.'
+        help: '  <state> &f<skill> >= <level>'
+  priceBuyFree: Free
+  priceSellNothing: Nothing
+  purchaseLore: '&fClick to purchase'
+  sellLore: '&fClick to sell'
+  rideLore: '&fClick to ride'
+  requirementSatisfied: '&a&l✔'
+  requirementNotSatisfied: '&c&l✘'
+  mountsTitle: Mounts
+sounds:
+  rideMount: ENTITY_HORSE_LAND
+  storeMount: ENTITY_HORSE_SADDLE
+  buyMount: BLOCK_NOTE_BLOCK_CHIME
+  sellMount: BLOCK_NOTE_BLOCK_CHIME
+mountCooldownSeconds: 1
+unmountOnDamage: true
+silenceMount: false
+lore:
+- '&f<breed>'
+- ''
+- '&7Speed Boost +<speedBoost>'
+- '&7Jump Boost +<jumpBoost>'
+- ''
+- '&fRequirements:'
+- <requirements>
+- ''
+- '&fPrice: &e<priceBuy>'
+- '&fSells for: &e<priceSell>'

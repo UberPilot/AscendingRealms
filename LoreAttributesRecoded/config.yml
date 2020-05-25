@@ -1,0 +1,60 @@
+# ----------------------------------- #
+#   LoreAttributesRecoded // Thana    #
+# ----------------------------------- #
+
+offhand-attributes-enabled: false
+gems:
+  slot: '&3< &aFree Gem Slot &3>'
+  socketed: '&3« &d&lSocketed: &a%gem% &3»'
+  plain: '&3« &d&lSocketed: &a &3»'
+  prefix: '» Socketed: '
+  suffix: ' »'
+  keyword: Socketed
+  material: EMERALD
+  unsocket-message: '&c» &7Which slot''s gem would you like to destroy? &o(Max %gems_max%)'
+  unsocket-success: '&c» &7Gem destroyed.'
+  unsocket-invalid-number: '&4&c» &7Unsocketing cancelled, max slots was %gems_max%'
+  unsocket-cancel: '&c» &7Unsocketing cancelled'
+unsocket-item:
+  display-name: '&6Unsocket Token'
+  material: LEGACY_BLAZE_POWDER
+  durability: 0
+  lore:
+  - '&eUse this in an anvil to unsocket a gem'
+  - '&4WARNING: &cThe gem will be destroyed!'
+  item-flags:
+  - HIDE_ATTRIBUTES
+lore:
+  health:
+    keyword: Health
+  regen:
+    keyword: Regen
+  damage:
+    keyword: Damage
+  dodge:
+    keyword: Evasion
+  critical-chance:
+    keyword: Critical Chance
+  critical-damage:
+    keyword: Critical Damage
+  life-steal:
+    keyword: Life Steal
+  armor:
+    keyword: Armor
+  restriction:
+    keyword: type
+    display-message: false
+    message: You can't use the %itemname%
+  smite:
+    keyword: Smite
+  bane:
+    keyword: Bane
+  defense:
+    keyword: Absorption
+  protection:
+    keyword: protected
+    remove-lore-on-death: true
+  durability:
+    keyword: durability
+  unbreakable:
+    keyword: unbreakable

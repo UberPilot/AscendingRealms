@@ -1,0 +1,69 @@
+# Settings for MobTransporter - v1.6
+# 
+# recipe.enabled: If true, users can craft the mob transporters with the indicated crafting recipe.
+# 
+# transporter.max-usages: The number of max usages that the transporter will have when it's crafted.
+# 
+# charge.item: The item that a player is required to have in order to charge their transporter.
+# 
+# charge.item-amount: The amount of the item that is required to charge.
+# 
+# charge.usage-amount: The amount of usages that each charge will add to the transporter.
+# 
+# materials: The materials that are used in the crafting recipe.
+# 
+# worlds.blacklist: The worlds where the mob transporter is disabled.
+# 
+# use-permissions: If true, players will need 'mobtransporter.capture' and 'mobtransporter.place' in order to use the transporter.
+# 
+# use-permissions-per-mob: If true, players will need 'mobtransporter.mob.NAME' or 'mobtransporter.mob.*' in order to capture a certain mob.
+# 
+# capture.citizens: If true, players are able to capture mobs from the plugin Citizens.
+# 
+# transporter.particles: Particles effect that appears when capturing a mob.
+# 
+# transporter.capture.sound: Sound that gets played when capturing a mob.
+# 
+# transporter.charge.sound: Sound that gets played when charging the mob transporter.
+# 
+# transporter.released.sound: Sound that gets played when releasing a mob.
+# 
+# 
+# Use https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html or https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html when setting materials or sounds.
+charge:
+  item: EMERALD
+  item-amount: 1
+  usages-amount: 1
+use-permissions: false
+use-permissions-per-mob: false
+capture:
+  citizens: false
+materials:
+- s:STRING
+- e:ENDER_PEARL
+- a:AIR
+worlds:
+  blacklist:
+  - myworld
+  - myworld_nether
+  - myworld_the_end
+transporter:
+  max-usages: 40
+  particles: SPELL_MOB
+  capture:
+    sound: ENTITY_EVOKER_CAST_SPELL
+    volume: 5
+    pitch: 5
+  charge:
+    sound: BLOCK_GRINDSTONE_USE
+    volume: 5
+    pitch: 5
+  released:
+    sound: ENTITY_ILLUSIONER_CAST_SPELL
+    volume: 5
+    pitch: 5
+recipe:
+  enabled: true
+  top: ssa
+  middle: sea
+  bottom: aas

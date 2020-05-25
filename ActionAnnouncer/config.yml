@@ -1,0 +1,14 @@
+# ActionAnnouncer v1.15.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 1200
+announcement_length: 10
+announcements:
+- '&fHave you voted today? &b/vote&f!'
+- '&fJoin our &b/discord &fto interact with the larger community!'
+- '&fNeed help? Ask in &b#help &fon discord or read the &b/guide&f.'
+- '&fLooking to buy or sell blocks? Use &b/shop&f.'
+announce_on_join: false
+join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
+  online!'
+disable_sounds: true

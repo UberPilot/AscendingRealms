@@ -1,0 +1,42 @@
+# +----------------------------------------------------------------------------------------------+ #
+# |                                                                                              | #
+# |                                         Resource World                                       | #
+# |                                                                                              | #
+# |                               Discord: https://discord.gg/m7j2Y9H                            | #
+# |                                                                                              | #
+# |                                           Author: Nik                                        | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# 
+# Would you like to enable the plugin?
+enabled: true
+world_name: resource_world
+generate_structures: true
+world_type: NORMAL
+environment: NORMAL
+use_custom_seed: false
+seed: -686298914
+automated_resets: true
+interval: 24
+world_border: true
+size: 3500
+pvp: true
+difficulty: NORMAL
+max_animals: 45
+max_monsters: 35
+max_ambient_entities: 5
+keep_spawn_loaded: false
+weather_storms: true
+fallback_world: world
+max_teleport_range: 800
+teleport_cooldown: 0
+teleport_delay: 0
+load_chunk_before_teleporting: true
+effect: ABSORPTION
+duration: 7
+amplifier: 2
+disabled_commands:
+- /sethome
+- /claim
+- /setwarp
+- /tpahere

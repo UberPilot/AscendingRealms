@@ -1,0 +1,6 @@
+safe-mode: true
+language: english
+translate-tab-compilation: true
+verify:
+  copy-action: true
+  reset-action: true

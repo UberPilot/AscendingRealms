@@ -1,0 +1,3 @@
+#If this is set to true the plugin will add the prefix before every message!
+#You can change the prefix in the lang.yml file
+Use-Prefix: true

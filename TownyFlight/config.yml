@@ -1,0 +1,43 @@
+# TownyFlight by LlmDl.
+Version: 1.5.7
+# Prefix to messages seen in game.
+pluginPrefix: '&3Towny &7» &f'
+####################
+# Language Strings #
+####################
+
+language:
+  # Message shown when flight activated.
+  flightOnMsg: Flight enabled.
+  # Message shown when flight de-activated.
+  flightOffMsg: Flight disabled.
+  # Message shown when player lacks a town. 
+  noTownMsg: '&bFlight cannot be activated, you don''t belong to a town. '
+  # Message shown when flight cannot be turned on.
+  notInTownMsg: '&bFlight cannot be activated, return to your town and try again. '
+  # Message shown when a player has flight taken away.
+  flightDeactivatedMsg: '&bLeft town boundaries. '
+  # Message shown when a player has flight taken away because of PVP.
+  flightDeactivatedPVPMsg: '&bEntering combat. '
+  # Message shown when a player has flight taken away by console.
+  flightDeactivatedConsoleMsg: '&bFlight priviledges removed. '
+  # Message shown when a player lacks a permission node.
+  noPermission: '&bYou don''t have permission to do that. '
+  # Message shown when war is active and flight is disallowed.
+  notDuringWar: '&bYou cannot use flight while a war is on. '
+#################
+#    Options    #
+#################
+
+options:
+  # If set to true, players entering their town will have flight auto-enabled.
+  # When set to true, the plugin will use slightly more resources due to the EnterTown listener.
+  auto_Enable_Flight: 'true'
+  # If set to true, players entering their town will have flight auto-enabled without being notified in chat.
+  auto_Enable_Silent: 'false'
+  # If set to false, players can still fly in their town while war is active.
+  disable_During_Wartime: 'true'
+  # If set to false, TownyFlight will not prevent combat of flying people.
+  disable_Combat_Prevention: 'true'
+  # If set to false, the language.noPermission message will not display the permission node.
+  show_Permission_After_No_Permission_Message: 'false'

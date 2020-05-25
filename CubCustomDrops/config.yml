@@ -1,0 +1,181 @@
+CubCustomDrops:
+  lastPage:
+    key:
+      '0': deec3656-7162-4401-9ad3-fb491db08ef0
+    get:
+      '0': 1
+  mobNames:
+    key:
+      '0': §aSpider
+      '1': §aEnderman
+      '2': §aZombie
+      '3': §aSkeleton
+      '4': §aCreeper
+    get:
+      '0':
+        Name: §aSpider
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: SPIDER_EYE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §bSeer Eye
+                lore:
+                - §7This eye twitches
+                - §7to look at you.
+                - '§7Rarity: §bUncommon'
+                - '§7Category: §fIngredient'
+                custom-model-data: 2
+                PublicBukkitValues:
+                  wolfyutilities:custom_item: mobs:seer_eye
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: &id001
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 300
+            WorldOverride: false
+      '1':
+        Name: §aEnderman
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: ENDER_PEARL
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §dVoid Pearl
+                lore:
+                - §7A dark galaxy
+                - §7swirls within this pearl.
+                - '§7Rarity: §dRare'
+                - '§7Category: §fIngredient'
+                custom-model-data: 2
+                PublicBukkitValues:
+                  wolfyutilities:custom_item: mobs:void_pearl
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 200
+            WorldOverride: false
+      '2':
+        Name: §aZombie
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: ROTTEN_FLESH
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §bReanimated Flesh
+                lore:
+                - §7This flesh still moves
+                - §7as you hold it.
+                - '§7Rarity: §bUncommon'
+                - '§7Category: §fIngredient'
+                custom-model-data: 2
+                PublicBukkitValues:
+                  wolfyutilities:custom_item: mobs:reanimated_flesh
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 128
+              BLUE: 128
+              GREEN: 0
+            DropChance: 500
+            WorldOverride: false
+      '3':
+        Name: §aSkeleton
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: BONE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §bInscribed Bone
+                lore:
+                - §7This bone has tiny
+                - §7runes carved into it.
+                - '§7Rarity: §bUncommon'
+                - '§7Category: §fIngredient'
+                custom-model-data: 2
+                PublicBukkitValues:
+                  wolfyutilities:custom_item: mobs:inscribed_bone
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 400
+            WorldOverride: false
+      '4':
+        Name: §aCreeper
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 2230
+              type: GUNPOWDER
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: §bActivated Gunpowder
+                lore:
+                - §7Tiny shards of green
+                - §7dot this gunpowder.
+                - '§7Rarity: §bUncommon'
+                - '§7Category: §fIngredient'
+                custom-model-data: 2
+                PublicBukkitValues:
+                  wolfyutilities:custom_item: mobs:activated_gunpowder
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor: *id001
+            DropChance: 300
+            WorldOverride: false
+  globalSettings:
+    LootingMultiplier: false
+    LootingAll: false
+    LootingM: 15
+    LootingA: 10
+    FortuneMultiplier: false
+    FortuneAll: false
+    FortuneM: 15
+    FortuneA: 10
+    GlobalWorlds:
+      '0': world
+      '1': world_nether
+      '2': world_the_end
+      '3': resource_world
+    LoadedOnce: true

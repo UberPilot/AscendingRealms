@@ -1,0 +1,6 @@
+resetConfigOnEnable: false
+mention:
+  volume: 1.0
+  pitch: 1.0
+  enableSpacesForMention: true
+  sound: block note block pling

@@ -1,0 +1,368 @@
+# GuiRedeemMCMMO 2.0.0 - Made By Pramsing.
+# Spigot Link: https://www.spigotmc.org/resources/guiredeemmcmmo.6784/
+# ---
+# PLAYER PERMISSIONS:
+# guiredeemmcmmo.checkcredits.other
+# guiredeemmcmmo.redeem
+# guiredeemmcmmo.pay
+# guiredeemmcmmo.withdraw
+# guiredeemmcmmo.useredeemableitem
+# guiredeemmcmmo.usewithdrawableitem
+# ADMIN PERMISSIONS:
+# guiredeemmcmmo.addcredits
+# guiredeemmcmmo.addallcredits
+# guiredeemmcmmo.takecredits
+# guiredeemmcmmo.setcredits
+# guiredeemmcmmo.giveredeem
+# guiredeemmcmmo.giveallredeem
+# guiredeemmcmmo.reload
+# ---
+DO_NOT_EDIT_didConvertOldData: false;
+Settings:
+  Options:
+    CooldownOnGuiClicks: 50
+  Messages:
+    Prefix: '&3&lGuiRedeemMCMMO &8//&7'
+    Redeem:
+      TriedToRedeemInvalidSkill: '%PREFIX% The entered skill is not valid.'
+      EnteredAmountIsNotANumber: '%PREFIX% The entered amount is not a number.'
+      PlayerDoesNotHaveEnoughCredits: '%PREFIX% You do not have enough credits.'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      PlayerReachedSkillLevelCap: '%PREFIX% You tried to go above the level cap for
+        this skill.'
+      RedeemSuccess: '%PREFIX% You successfully redeemed &b%AMOUNT% &7levels towards
+        &b%SKILL%'
+      WrongCommandUsage: '%PREFIX% Incorrect command usage.|&7 Try &b/redeem'
+      NoCreditsToRedeem: '%PREFIX% You have no credits to redeem.'
+      WriteAmountOfCreditsToSpend: '%PREFIX% Write in chat how many tokens you want
+        to spend on &b%SKILL%|&7 Write &bcancel &7or &b0 &7to cancel.'
+      OnChat:
+        RedeemSuccess: '%PREFIX% You successfully redeemed &b%AMOUNT% &7levels towards
+          &b%SKILL%'
+        NotEnoughCredits: '%PREFIX% You don''t have enough credits. Redeeming cancelled.'
+        NotANumber: '%PREFIX% The entered amount was not recognized as a number. Redeeming
+          cancelled.'
+        RedeemedAboveSkillCap: '%PREFIX% You tried to go above the level cap for this
+          skill. Redeeming cancelled.'
+        PlayerCancelled: '%PREFIX% You cancelled redeeming mcmmo credits.'
+        AmountMustBePositive: '%PREFIX% The entered amount must be above 0. Redeeming
+          cancelled.'
+    Credits:
+      OwnCredits: '%PREFIX% You have &b%CREDITS% &7credits.'
+      Other:
+        TargetNotFound: '%PREFIX% The player you entered does not seem to exist.'
+        TargetNeverPlayed: '%PREFIX% The player you entered never joined the server.'
+        TargetHasCredits: '%PREFIX% %TARGET% has &b%CREDITS% &7credits.'
+      Pay:
+        NoPermission: '%PREFIX% You do not have access to this command.'
+        TargetNotFound: '%PREFIX% The player you entered does not seem to be online.'
+        NotEnoughCredits: '%PREFIX% You don''t have enough credits.'
+        AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+        NotANumber: '%PREFIX% The entered amount was not recognized as a number.'
+        Sender:
+          YouSent: '%PREFIX% You sent %AMOUNT% credits to %PLAYER%.|&7You now have
+            &b%CREDITS% &7credits.'
+        Receiver:
+          YouReceived: '%PREFIX% You received %AMOUNT% credits from %PLAYER%.|&7You
+            now have &b%CREDITS% &7credits.'
+      Withdraw:
+        NoPermission: '%PREFIX% You do not have access to this command.'
+        NotEnoughCredits: '%PREFIX% You don''t have enough credits.'
+        InventoryFull: '%PREFIX% Your inventory is full.'
+        CommandSuccess: '%PREFIX% You have withdrawn %AMOUNT% credits to an item.'
+        AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+        NotANumber: '%PREFIX% The entered amount was not recognized as a number.'
+    AddCredits:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/addcredits <player>
+        <amount>'
+      TargetNotFound: '%PREFIX% The player you entered does not seem to exist.'
+      AmountNotAnInteger: '%PREFIX% The entered amount must be a whole number above
+        0.'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      CreditsAdded: '%PREFIX% %TARGET% was given %AMOUNT% credits.'
+      Target:
+        YouReceived: '%PREFIX% You received &b%AMOUNT% &7credits.|&7You now have &b%CREDITS%
+          &7credits.'
+    AddAllCredits:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/addallcredits
+        <amount>'
+      AmountNotAnInteger: '%PREFIX% The entered amount must be a whole number above
+        0.'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      CreditsAdded: '%PREFIX% All online players were given %AMOUNT% credits.'
+      Target:
+        YouReceived: '%PREFIX% You received &b%AMOUNT% &7credits.|&7You now have &b%CREDITS%
+          &7credits.'
+    TakeCredits:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/takecredits <player>
+        <amount>'
+      TargetNotFound: '%PREFIX% The player you entered does not seem to exist.'
+      AmountNotAnInteger: '%PREFIX% The entered amount must be a whole number above
+        0.'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      CreditsTaken: '%PREFIX% %TARGET% lost %AMOUNT% credits.'
+      Target:
+        YouLost: '%PREFIX% You lost &b%AMOUNT% &7credits.'
+    SetCredits:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/takecredits <player>
+        <amount>'
+      TargetNotFound: '%PREFIX% The player you entered does not seem to exist.'
+      AmountNotAnInteger: '%PREFIX% The entered amount must be a whole number.'
+      CreditsSet: '%PREFIX% %TARGET%''s credits were set to %AMOUNT%.'
+      Target:
+        YourCreditsWereSetTo: '%PREFIX% Your credit balance was set to &b%AMOUNT%&7.'
+    GiveRedeem:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/giveredeem <player>
+        <amount>'
+      TargetNotFound: '%PREFIX% The player you entered does not seem to be online.'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      CommandSuccess: '%PREFIX% %TARGET% was given a redeemable item for &b%AMOUNT%
+        &7credits.'
+      Target:
+        YouReceived: '%PREFIX% You received a redeemable mcmmo credits item worth
+          &b%AMOUNT% &7credits.'
+    GiveAllRedeem:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+      WrongCommandUsage: '%PREFIX% Wrong command usage.|&7Usage: &b/giveallredeem
+        <player> <amount>'
+      AmountMustBePositive: '%PREFIX% The entered amount must be above 0.'
+      CommandSuccess: '%PREFIX% All online players were given a redeemable item for
+        &b%AMOUNT% &7credits.'
+      Target:
+        YouReceived: '%PREFIX% You received a redeemable mcmmo credits item worth
+          &b%AMOUNT% &7credits.'
+    OnRedeemableItemRedeem:
+      NoPermission: '%PREFIX% You do not have access to use this item.'
+      RedeemSuccess: '%PREFIX% You used a redeemable mcmmo credits item and received
+        %AMOUNT% credits.|&7You now have &b%CREDITS% &7credits.'
+    OnWithdrawableItemRedeem:
+      NoPermission: '%PREFIX% You do not have access to use this item.'
+      RedeemSuccess: '%PREFIX% You used %WITHDRAWER%''s withdrawn credits item and
+        received %AMOUNT% credits.|&7You now have &b%CREDITS% &7credits.'
+    Reload:
+      NoPermission: '%PREFIX% You do not have access to this command.'
+  Items:
+    RedeemableItem:
+      Material: MAGMA_CREAM
+      Damage: 0
+      Name: '&3** &bMcMMO Credits &3**'
+      Lore:
+      - '&bAmount: &7%AMOUNT%'
+      - '&7'
+      - '&7&oRight-click to redeem.'
+    WithdrawableItem:
+      Material: MAGMA_CREAM
+      Damage: 0
+      Name: '&3** &bMcMMO Credits &3**'
+      Lore:
+      - '&bAmount: &7%AMOUNT%'
+      - '&bWithdrawn by: &7%PLAYER%'
+      - '&7'
+      - '&7&oRight-click to redeem.'
+  GUIs:
+    RedeemGUI:
+      Title: '&3&lGuiRedeemMCMMO'
+      Size: 27
+      Commands:
+      - redeem
+      - guiredeem
+      - grmredeem
+      Layout:
+        glasspanes:
+          Enabled: true
+          Skill: ''
+          Slot: 0,8,9,10,16,17,18,19,20,21,23,24,25,26
+          Item:
+            Material: STAINED_GLASS_PANE
+            Damage: 3
+            Amount: 1
+            Name: '&7Your Credits: &b&l%CREDITS%'
+            Lore:
+            - ''
+        mining:
+          Enabled: true
+          Skill: MINING
+          Slot: 1
+          Item:
+            Material: DIAMOND_PICKAXE
+            Damage: 0
+            Amount: 1
+            Name: '&3&lMINING'
+            Lore:
+            - '&7Click to assign levels to &3&lMINING'
+            - '&7'
+            - '&7Current Level: &3%LEVEL%'
+            - '&7Level cap: &3%LEVEL_CAP%'
+        woodcutting:
+          Enabled: true
+          Skill: WOODCUTTING
+          Slot: 2
+          Item:
+            Material: IRON_AXE
+            Damage: 0
+            Amount: 1
+            Name: '&6&lWOODCUTTING'
+            Lore:
+            - '&7Click to assign levels to &6&lWOODCUTTING'
+            - '&7'
+            - '&7Current Level: &6%LEVEL%'
+            - '&7Level cap: &6%LEVEL_CAP%'
+        harbalism:
+          Enabled: true
+          Skill: HERBALISM
+          Slot: 3
+          Item:
+            Material: DIAMOND_HOE
+            Damage: 0
+            Amount: 1
+            Name: '&a&lHERBALISM'
+            Lore:
+            - '&7Click to assign levels to &a&lHERBALISM'
+            - '&7'
+            - '&7Current Level: &a%LEVEL%'
+            - '&7Level cap: &a%LEVEL_CAP%'
+        fishing:
+          Enabled: true
+          Skill: FISHING
+          Slot: 4
+          Item:
+            Material: FISHING_ROD
+            Damage: 0
+            Amount: 1
+            Name: '&9&lFISHING'
+            Lore:
+            - '&7Click to assign levels to &9&lFISHING'
+            - '&7'
+            - '&7Current Level: &9%LEVEL%'
+            - '&7Level cap: &9%LEVEL_CAP%'
+        excavation:
+          Enabled: true
+          Skill: EXCAVATION
+          Slot: 5
+          Item:
+            Material: DIAMOND_SPADE
+            Damage: 0
+            Amount: 1
+            Name: '&8&lEXCAVATION'
+            Lore:
+            - '&7Click to assign levels to &8&lEXCAVATION'
+            - '&7'
+            - '&7Current Level: &8%LEVEL%'
+            - '&7Level cap: &8%LEVEL_CAP%'
+        unarmed:
+          Enabled: true
+          Skill: UNARMED
+          Slot: 6
+          Item:
+            Material: STICK
+            Damage: 0
+            Amount: 1
+            Name: '&f&lUNARMED'
+            Lore:
+            - '&7Click to assign levels to &f&lUNARMED'
+            - '&7'
+            - '&7Current Level: &f%LEVEL%'
+            - '&7Level cap: &f%LEVEL_CAP%'
+        archery:
+          Enabled: true
+          Skill: ARCHERY
+          Slot: 7
+          Item:
+            Material: BOW
+            Damage: 0
+            Amount: 1
+            Name: '&e&lARCHERY'
+            Lore:
+            - '&7Click to assign levels to &e&lARCHERY'
+            - '&7'
+            - '&7Current Level: &e%LEVEL%'
+            - '&7Level cap: &e%LEVEL_CAP%'
+        swords:
+          Enabled: true
+          Skill: SWORDS
+          Slot: 11
+          Item:
+            Material: DIAMOND_SWORD
+            Damage: 0
+            Amount: 1
+            Name: '&c&lSWORDS'
+            Lore:
+            - '&7Click to assign levels to &c&lSWORDS'
+            - '&7'
+            - '&7Current Level: &c%LEVEL%'
+            - '&7Level cap: &c%LEVEL_CAP%'
+        axes:
+          Enabled: true
+          Skill: AXES
+          Slot: 12
+          Item:
+            Material: DIAMOND_AXE
+            Damage: 0
+            Amount: 1
+            Name: '&4&lAXES'
+            Lore:
+            - '&7Click to assign levels to &4&lAXES'
+            - '&7'
+            - '&7Current Level: &4%LEVEL%'
+            - '&7Level cap: &4%LEVEL_CAP%'
+        taming:
+          Enabled: true
+          Skill: TAMING
+          Slot: 13
+          Item:
+            Material: BONE
+            Damage: 0
+            Amount: 1
+            Name: '&3&lTAMING'
+            Lore:
+            - '&7Click to assign levels to &3&lTAMING'
+            - '&7'
+            - '&7Current Level: &3%LEVEL%'
+            - '&7Level cap: &3%LEVEL_CAP%'
+        repair:
+          Enabled: true
+          Skill: REPAIR
+          Slot: 14
+          Item:
+            Material: IRON_BLOCK
+            Damage: 0
+            Amount: 1
+            Name: '&2&lREPAIR'
+            Lore:
+            - '&7Click to assign levels to &2&lREPAIR'
+            - '&7'
+            - '&7Current Level: &2%LEVEL%'
+            - '&7Level cap: &2%LEVEL_CAP%'
+        acrobatics:
+          Enabled: true
+          Skill: ACROBATICS
+          Slot: 15
+          Item:
+            Material: DIAMOND_BOOTS
+            Damage: 0
+            Amount: 1
+            Name: '&5&lACROBATICS'
+            Lore:
+            - '&7Click to assign levels to &5&lACROBATICS'
+            - '&7'
+            - '&7Current Level: &5%LEVEL%'
+            - '&7Level cap: &5%LEVEL_CAP%'
+        alchemy:
+          Enabled: true
+          Skill: ALCHEMY
+          Slot: 22
+          Item:
+            Material: POTION
+            Damage: 0
+            Amount: 1
+            Name: '&d&lALCHEMY'
+            Lore:
+            - '&7Click to assign levels to &d&lALCHEMY'
+            - '&7'
+            - '&7Current Level: &d%LEVEL%'
+            - '&7Level cap: &d%LEVEL_CAP%'

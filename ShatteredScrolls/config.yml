@@ -1,0 +1,51 @@
+config:
+  ==: ScrollConfig # DO NOT DELETE THIS LINE!
+  scroll-unbound-name: "&bUnbound Teleportation Scroll"
+  scroll-unbound-lore: |-
+    &7An unbound teleportation scroll.
+    &7Right click it to bind it to your location.
+    &7It has &f%charges%&7 charges.
+    &7Rarity: &bUncommon
+    &7Category: &fConsumable
+  scroll-bound-position-name: "&bTeleportation Scroll"
+  scroll-bound-position-lore: |-
+    &7A bound teleportation scroll.
+    &7It goes to &f%x% %y% %z%&7 in &f%world%&7.
+    &7It has &f%charges%&7 charges remaining.
+    &7Rarity: &bUncommon
+    &7Category: &fConsumable
+  scroll-bound-location-name: "&bTeleportation Scroll"
+  scroll-bound-location-lore: |-
+    &7A bound teleportation scroll.
+    &7It goes to &f%destination%&7.
+    &7It has &f%charges%&7 charges remaining.
+    &7Rarity: &bUncommon
+    &7Category: &fConsumable
+  scroll-unbound-glow: false
+  scroll-bound-glow: true
+  scroll-material: PAPER
+  refund-invalid: true
+  allow-crafting: true
+  cooldown: 5000 # Cooldown between usages. Minimum 10.
+  model: 0 # Sets custom model data if the server supports it.
+  charges: 5 # The default number of charges. Set to -1024 for infinity.
+  cost:
+    ==: ScrollCost # DO NOT DELETE THIS LINE!
+    type: POTION # Options: XP, HUNGER, HEALTH. Defaults to XP if invalid.
+    data: # Accepts a number or a potion effect, depending on type. Defaults to 5 if invalid.
+      ==: PotionEffect
+      effect: 9 # Nausea, see https://minecraft.gamepedia.com/Status_effect#Data_values
+      duration: 100 # Duration in ticks.
+      amplifier: 0
+      ambient: false
+      particles: true
+  recipe:
+    ==: ScrollRecipe # DO NOT DELETE THIS LINE!
+    amount: 1 # The number of scrolls that should be crafted.
+    recipe: # The shape of the recipe.
+      - " E "
+      - "EPE"
+      - " E "
+    mapping: # The characters in the recipe.
+      E: ENDER_PEARL
+      P: PAPER

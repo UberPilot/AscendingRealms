@@ -1,0 +1,5 @@
+spawns:
+  default:
+    loc: world,311.51113932439614,74.6,215.96412548510253,-1.4296899,0.74949116
+useDefaultAsFallback: true
+configversion: 1
