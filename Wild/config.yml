@@ -1,0 +1,26 @@
+language: english
+cooldown: 60
+no_border_size: 5000
+use_vanilla_world_border: false
+immortal_duration_after_teleport: 5000
+charge:
+  enabled: false
+  amount: 10
+disabled_worlds:
+- world_the_end
+- world_nether
+- warps
+wild_on_first_join:
+  enabled: false
+  world: '@same'
+wild_on_death:
+  enabled: false
+  world: '@same'
+default_world: '@same'
+performance:
+  buffer_size: 1024
+  buffer_interval: 40
+  keep_buffer_loaded_size: 3
+  command_max_tries: 2
+verbose: false
+drop_from_above_height: 0
