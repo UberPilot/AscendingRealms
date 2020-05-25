@@ -1,0 +1,360 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 9
+npc:
+  '1':
+    name: Shopkeeper
+    uuid: 4e27ff70-8317-4bc9-9a0f-c2cef5f63a5a
+    traits:
+      profession: TOOLSMITH
+      type: VILLAGER
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      villagertrait:
+        level: 5
+        type: JUNGLE
+      location:
+        headYaw: 0.0
+        world: world
+        x: '330.3594'
+        y: '66.0'
+        z: '225.4461'
+        yaw: '0.0'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,villagertrait,owner,spawned,profession,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: Rankmaster
+    uuid: 1652d034-8252-4dec-94ba-c6b177f37c68
+    traits:
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      location:
+        headYaw: 0.0
+        world: world
+        x: '308.3975'
+        y: '74.0'
+        z: '219.4927'
+        yaw: '0.0'
+        pitch: '0.0'
+      profession: CLERIC
+      type: VILLAGER
+      villagertrait:
+        level: 5
+        type: PLAINS
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,villagertrait,owner,spawned,profession,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: Blacksmith §7[Level 1]
+    uuid: 13bb7be7-c28e-4ab9-b53e-70756a1e2e5b
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      age:
+        age: 0
+        locked: true
+      location:
+        headYaw: 0.0
+        world: world
+        x: '-1052.5742'
+        y: '76.0'
+        z: '3038.1834'
+        yaw: '73.596'
+        pitch: '0.0'
+      profession: TOOLSMITH
+      type: VILLAGER
+      villagertrait:
+        level: 1
+        type: PLAINS
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,villagertrait,spawned,owner,profession,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: Keykeeper
+    uuid: e9b8d0b0-05a4-4d21-b73d-f004c3263533
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      age:
+        age: 0
+        locked: true
+      location:
+        headYaw: 0.0
+        world: world
+        x: '314.2831'
+        y: '74.0'
+        z: '219.3969'
+        yaw: '0.0'
+        pitch: '0.0'
+      profession: MASON
+      type: VILLAGER
+      villagertrait:
+        level: 5
+        type: PLAINS
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,villagertrait,spawned,owner,profession,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: Blacksmith §7[Level 1]
+    uuid: 5e8c0ed7-0159-494f-9404-d8978919cca8
+    traits:
+      villagertrait:
+        level: 1
+        type: PLAINS
+      location:
+        headYaw: 0.0
+        world: world
+        x: '232.5105'
+        y: '61.0'
+        z: '-466.4816'
+        yaw: '-77.3451'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      profession: TOOLSMITH
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,villagertrait,owner,spawned,profession,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Stablemaster
+    uuid: 2185afff-342d-4e5f-9e9f-e3d497498976
+    traits:
+      type: VILLAGER
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        headYaw: 0.0
+        world: world
+        x: '235.2405'
+        y: '66.0'
+        z: '257.7326'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,owner,spawned,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §fBlacksmith §7[Level 1]
+    uuid: e8c46ae5-be1a-4897-86fd-c4d41684743b
+    traits:
+      villagertrait:
+        level: 1
+        type: PLAINS
+      type: VILLAGER
+      location:
+        headYaw: 0.0
+        world: world
+        x: '500.6058'
+        y: '66.0'
+        z: '-2980.4428'
+        yaw: '-107.4697'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      profession: TOOLSMITH
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,inventory,location,villagertrait,equipment,gravity,spawned,owner,profession,scoreboardtrait,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    name: Stablemaster
+    uuid: e36d8293-cc21-46dd-95aa-55bd67793e4c
+    traits:
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        headYaw: 0.0
+        world: world
+        x: '279.188'
+        y: '64.0'
+        z: '-451.9981'
+        yaw: '-129.2455'
+        pitch: '0.0'
+      type: VILLAGER
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,owner,spawned,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: Stablemaster
+    uuid: c4f14290-dd4c-471d-abf0-f1f91b518c74
+    traits:
+      location:
+        headYaw: 0.0
+        world: world
+        x: '338.6878'
+        y: '65.0'
+        z: '-69.7171'
+        yaw: '-131.5025'
+        pitch: '0.0'
+      spawned: true
+      type: VILLAGER
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: UberPilot
+        uuid: deec3656-7162-4401-9ad3-fb491db08ef0
+    traitnames: type,age,location,owner,spawned,lookclose,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
