@@ -1,0 +1,11 @@
+name: Trusty Steed
+type: HORSE
+icon: IRON_HORSE_ARMOR
+speed: 0.175
+jump: 0.44
+categories: []
+lore: []
+color: CHESTNUT
+style: NONE
+priceBuy: 250.00
+priceSell: 100.00

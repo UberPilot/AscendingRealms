@@ -1,0 +1,12 @@
+name: Royal Steed
+type: HORSE
+icon: GOLDEN_HORSE_ARMOR
+armor: GOLDEN_HORSE_ARMOR
+speed: 0.3
+jump: 0.58
+categories: []
+lore: []
+color: WHITE
+style: NONE
+priceBuy: 1000.00
+priceSell: 500.00

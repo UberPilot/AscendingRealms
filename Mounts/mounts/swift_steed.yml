@@ -1,0 +1,11 @@
+name: Swift Steed
+type: HORSE
+icon: IRON_HORSE_ARMOR
+speed: 0.2
+jump: 0.44
+categories: []
+lore: []
+color: CREAMY
+style: NONE
+priceBuy: 500.00
+priceSell: 250.00

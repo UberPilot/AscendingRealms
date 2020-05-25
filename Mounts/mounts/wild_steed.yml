@@ -1,0 +1,15 @@
+name: Wild Steed
+type: HORSE
+icon: LEATHER_HORSE_ARMOR
+speed: 0.2
+jump: 0.44
+categories: []
+lore: []
+requirements:
+  mcmmo:
+    skills:
+      TAMING: 25
+color: CREAMY
+style: NONE
+priceBuy: 50.00
+priceSell: 25.00

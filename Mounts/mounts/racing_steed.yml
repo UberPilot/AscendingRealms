@@ -1,0 +1,12 @@
+name: Racing Steed
+type: HORSE
+icon: GOLDEN_HORSE_ARMOR
+armor: IRON_HORSE_ARMOR
+speed: 0.35
+jump: 0.63
+categories: []
+lore: []
+color: BLACK
+style: WHITE_DOTS
+priceBuy: 2500.00
+priceSell: 1000.00

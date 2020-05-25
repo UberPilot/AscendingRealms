@@ -1,0 +1,17 @@
+name: Warhorse
+type: HORSE
+icon: DIAMOND_HORSE_ARMOR
+armor: DIAMOND_HORSE_ARMOR
+speed: 0.4
+jump: 0.74
+categories: []
+lore: []
+requirements:
+  mcmmo:
+    skills:
+      TAMING: 50
+      SWORDS: 50
+color: BLACK
+style: NONE
+priceBuy: 2500.00
+priceSell: 2500.00
