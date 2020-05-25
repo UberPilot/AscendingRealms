@@ -1,0 +1,51 @@
+Groups:
+  Staff:
+    Permission: nte.staff
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 1
+  Royalty:
+    Permission: nte.royalty
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 2
+  Sponsor:
+    Permission: nte.sponsor
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 3
+  Supporter:
+    Permission: nte.supporter
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 4
+  Nobility:
+    Permission: nte.nobility
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 5
+  Renowned:
+    Permission: nte.renowned
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 6
+  Denizen:
+    Permission: nte.renowned
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 7
+  Citizen:
+    Permission: nte.citizen
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 8
+  Wanderer:
+    Permission: nte.wanderer
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 9
+  Stranger:
+    Permission: nte.default
+    Suffix: '%luckperms_prefix%'
+    Prefix: '%luckperms_meta_namecolor%'
+    SortPriority: 10
