@@ -1,0 +1,91 @@
+# Paths file - This file will contain all paths that a player is allowed to take. Previously known as 'AdvancedConfig.yml'.
+# This file contains (by default) a Test group that shows the basic syntax of this file. 
+# For more information, go to https://github.com/Armarr/Autorank-2/wiki/How-to-configure-the-Paths.yml-file%3F.
+Wanderer:
+  prerequisites:
+    in group:
+      value: default
+  requirements:
+    time:
+      value: 5m
+  results:
+    command:
+      value: broadcast &f&p has just ranked up to &7Wanderer&f!
+    command2:
+      value: lp user &p promote player
+    command3:
+      value: eco give &p 100
+    message:
+      value: Congratulations, you have achieved the rank of &7Wanderer&f! You've earned &b100g&f.
+Citizen:
+  prerequisites:
+    in group:
+      value: wanderer
+  requirements:
+    time:
+      value: 2h
+    mcmmo power level:
+      value: 25
+  results:
+    command:
+      value: broadcast &f&p has just ranked up to Citizen!
+    command2:
+      value: lp user &p promote player
+    command3:
+      value: eco give &p 500
+    message:
+      value: Congratulations, you have achieved the rank of Citizen!
+Denizen:
+  prerequisites:
+    in group:
+      value: citizen
+  requirements:
+    time:
+      value: 8h
+    mcmmo power level:
+      value: 100
+  results:
+    command:
+      value: broadcast &f&p has just ranked up to &bDenizen&f!
+    command2:
+      value: lp user &p promote player
+    command3:
+      value: eco give &p 1000
+    message:
+      value: Congratulations, you have achieved the rank of &bDenizen&f!
+Renowned:
+  prerequisites:
+    in group:
+      value: denizen
+  requirements:
+    time:
+      value: 2d
+    mcmmo power level:
+      value: 250
+  results:
+    command:
+      value: broadcast &f&p has just ranked up to &3Renowned&f!
+    command2:
+      value: lp user &p promote player
+    command3:
+      value: eco give &p 2500
+    message:
+      value: Congratulations, you have achieved the rank of &3Renowned&f!
+Noble:
+  prerequisites:
+    in group:
+      value: renowned
+  requirements:
+    time:
+      value: 7d
+    mcmmo power level:
+      value: 500
+  results:
+    command:
+      value: broadcast &f&p has just ranked up to &9Noble&f!
+    command2:
+      value: lp user &p promote player
+    command3:
+      value: eco give &p 2500
+    message:
+      value: Congratulations, you have achieved the rank of &9Noble&f!
