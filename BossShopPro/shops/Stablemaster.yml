@@ -1,0 +1,35 @@
+ShopName: Stablemaster
+DisplayName: '&8Stablemaster'
+shop:
+  MountKey:
+    MenuItem:
+      - 'type:TRIPWIRE_HOOK'
+      - 'amount:1'
+      - 'name:&3Buy Mount Key'
+      - 'lore1:&f'
+      - 'lore2:&fPrice: %price%'
+    RewardType: command
+    Reward:
+      - 'scrates givekey MountCrate %player% 1 -v'
+    PriceType: money
+    Price: 100
+    InventoryLocation: 2
+  MyMounts:
+    MenuItem:
+      - 'type:LEATHER_HORSE_ARMOR'
+      - 'amount:1'
+      - 'name:&3Spawn Mount'
+    RewardType: opcommand
+    Reward:
+      - 'mounts'
+    InventoryLocation: 5
+  SellMounts:
+    MenuItem:
+      - 'type:GOLD_NUGGET'
+      - 'amount:1'
+      - 'name:&3Sell Mounts'
+    RewardType: command
+    Reward:
+      - 'mountsell %player%'
+    PriceType: nothing
+    InventoryLocation: 8

@@ -1,0 +1,791 @@
+ShopName: MaterialShop
+DisplayName: '&3Material Shop'
+Command: materials:mats
+shop:
+  Stone:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% stone 64
+    MenuItem:
+    - type:STONE
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 1
+  Cobblestone:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% cobblestone 64
+    MenuItem:
+    - type:COBBLESTONE
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 2
+  Granite:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% granite 64
+    MenuItem:
+    - type:GRANITE
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 3
+  Diorite:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% diorite 64
+    MenuItem:
+    - type:DIORITE
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 4
+  Andesite:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% andesite 64
+    MenuItem:
+    - type:ANDESITE
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 5
+  Dirt:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% dirt 64
+    MenuItem:
+    - type:DIRT
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 6
+  Sand:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% sand 64
+    MenuItem:
+    - type:SAND
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 7
+  Gravel:
+    RewardType: command
+    PriceType: money
+    Price: 25
+    Reward:
+    - give %name% gravel 64
+    MenuItem:
+    - type:gravel
+    - 'lore:&f#&fPrice: &b25g'
+    InventoryLocation: 8
+  Sandstone:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% sandstone 64
+    MenuItem:
+    - type:SANDSTONE
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 9
+  OakLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% oak_log 64
+    MenuItem:
+    - type:OAK_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 10
+  SpruceLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% spruce_log 64
+    MenuItem:
+    - type:SPRUCE_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 11
+  BirchLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% birch_log 64
+    MenuItem:
+    - type:BIRCH_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 12
+  JungleLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% jungle_log 64
+    MenuItem:
+    - type:JUNGLE_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 13
+  AcaciaLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% acacia_log 64
+    MenuItem:
+    - type:ACACIA_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 14
+  DarkOakLog:
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% dark_oak_log 64
+    MenuItem:
+    - type:DARK_OAK_LOG
+    - 'lore:&f#&fPrice: &b50g'
+    InventoryLocation: 15
+  WandererSpacer2:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&7Wanderer Shop'
+    InventoryLocation: 16
+  WandererSpacer3:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&7Wanderer Shop'
+    InventoryLocation: 17
+  WandererSpacer4:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&7Wanderer Shop'
+    InventoryLocation: 18
+  Clay:
+    Condition:
+      - type:permission
+      - match:group.citizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% clay 64
+    MenuItem:
+    - type:CLAY
+    - 'lore:&f#&fCitizen Exclusive#&fPrice: &b50g'
+    InventoryLocation: 19
+  MossStone:
+    Condition:
+      - type:permission
+      - match:group.citizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% mossy_cobblestone 64
+    MenuItem:
+    - type:MOSSY_COBBLESTONE
+    - 'lore:&f#&fCitizen Exclusive#&fPrice: &b50g'
+    InventoryLocation: 20
+  Snow:
+    Condition:
+      - type:permission
+      - match:group.citizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 50
+    Reward:
+    - give %name% snow_block 64
+    MenuItem:
+    - type:SNOW_BLOCK
+    - 'lore:&f#&fCitizen Exclusive#&fPrice: &b50g'
+    InventoryLocation: 20
+  Ice:
+    Condition:
+      - type:permission
+      - match:group.citizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% ice 64
+    MenuItem:
+    - type:ICE
+    - 'lore:&f#&fCitizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 21
+  CitizenSpacer1:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 19
+  CitizenSpacer2:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 20
+  CitizenSpacer3:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 21
+  CitizenSpacer4:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 22
+  CitizenSpacer5:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 23
+  CitizenSpacer6:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 24
+  CitizenSpacer7:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 25
+  CitizenSpacer8:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 26
+  CitizenSpacer9:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:WHITE_STAINED_GLASS_PANE
+    - 'name:&r&fCitizen Shop'
+    InventoryLocation: 27
+  Grass:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% grass_block 64
+    MenuItem:
+    - type:GRASS_BLOCK
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 28
+  RedSand:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% red_sand 64
+    MenuItem:
+    - type:RED_SAND
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 29
+  RedSandstone:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% red_sandstone 64
+    MenuItem:
+    - type:RED_SANDSTONE
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 30
+  Obsidian:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% obsidian 64
+    MenuItem:
+    - type:OBSIDIAN
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 31
+  Netherrack:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 100
+    Reward:
+    - give %name% netherrack 64
+    MenuItem:
+    - type:NETHERRACK
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b100g'
+    InventoryLocation: 32
+  SoulSand:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% soul_sand 64
+    MenuItem:
+    - type:SOUL_SAND
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 33
+  Glowstone:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% glowstone 64
+    MenuItem:
+    - type:GLOWSTONE
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 34
+  NetherBrick:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% nether_brick_block 64
+    MenuItem:
+    - type:NETHER_BRICKS
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 35
+  Magma:
+    Condition:
+      - type:permission
+      - match:group.denizen,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% magma 64
+    MenuItem:
+    - type:MAGMA
+    - 'lore:&f#&bDenizen Exclusive#&fPrice: &b250g'
+    InventoryLocation: 36
+  DenizenSpacer1:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 28
+  DenizenSpacer2:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 29
+  DenizenSpacer3:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 30
+  DenizenSpacer4:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 31
+  DenizenSpacer5:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 32
+  DenizenSpacer6:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 33
+  DenizenSpacer7:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 34
+  DenizenSpacer8:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 35
+  DenizenSpacer9:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:LIGHT_BLUE_STAINED_GLASS_PANE
+    - 'name:&r&bDenizen Shop'
+    InventoryLocation: 36
+  Podzol:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% podzol 64
+    MenuItem:
+    - type:PODZOL
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b250g'
+    InventoryLocation: 37
+  Mycelium:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 500
+    Reward:
+    - give %name% mycelium 64
+    MenuItem:
+    - type:MYCELIUM
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b500g'
+    InventoryLocation: 38
+  Mycelium:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 500
+    Reward:
+    - give %name% mycelium 64
+    MenuItem:
+    - type:MYCELIUM
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b500g'
+    InventoryLocation: 38
+  EndStone:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% end_stone 64
+    MenuItem:
+    - type:END_STONE
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b250g'
+    InventoryLocation: 39
+  QuartzBlock:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 500
+    Reward:
+    - give %name% quartz_block 64
+    MenuItem:
+    - type:QUARTZ_BLOCK
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b500g'
+    InventoryLocation: 40
+  Prismarine:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% prismarine 64
+    MenuItem:
+    - type:PRISMARINE
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b250g'
+    InventoryLocation: 41
+  PrismarineBricks:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% prismarine_bricks 64
+    MenuItem:
+    - type:PRISMARINE_BRICKS
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b250g'
+    InventoryLocation: 42
+  DarkPrismarine:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% dark_prismarine 64
+    MenuItem:
+    - type:DARK_PRISMARINE
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b250g'
+    InventoryLocation: 43
+  SeaLantern:
+    Condition:
+      - type:permission
+      - match:group.renowned,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 500
+    Reward:
+    - give %name% sea_lantern 64
+    MenuItem:
+    - type:DARK_PRISMARINE
+    - 'lore:&f#&3Renowned Exclusive#&fPrice: &b500g'
+    InventoryLocation: 44
+  RenownedSpacer1:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 37
+  RenownedSpacer2:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 38
+  RenownedSpacer3:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 39
+  RenownedSpacer4:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 40
+  RenownedSpacer5:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 41
+  RenownedSpacer6:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 42
+  RenownedSpacer7:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 43
+  RenownedSpacer8:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 44
+  RenownedSpacer9:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:CYAN_STAINED_GLASS_PANE
+    - 'name:&r&3Renowned Shop'
+    InventoryLocation: 45
+  TubeCoral:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% tube_coral_block 64
+    MenuItem:
+    - type:TUBE_CORAL_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b250g'
+    InventoryLocation: 46
+  BrainCoral:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% brain_coral_block 64
+    MenuItem:
+    - type:BRAIN_CORAL_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b250g'
+    InventoryLocation: 47
+  BubbleCoral:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% bubble_coral_block 64
+    MenuItem:
+    - type:BUBBLE_CORAL_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b250g'
+    InventoryLocation: 48
+  FireCoral:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% fire_coral_block 64
+    MenuItem:
+    - type:FIRE_CORAL_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b250g'
+    InventoryLocation: 49
+  HornCoral:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 250
+    Reward:
+    - give %name% horn_coral_block 64
+    MenuItem:
+    - type:HORN_CORAL_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b250g'
+    InventoryLocation: 50
+  Purpur:
+    Condition:
+      - type:permission
+      - match:group.nobility,groups.supporter
+    RewardType: command
+    PriceType: money
+    Price: 500
+    Reward:
+    - give %name% purpur_block 64
+    MenuItem:
+    - type:PURPUR_BLOCK
+    - 'lore:&f#&9Nobility Exclusive#&fPrice: &b500g'
+    InventoryLocation: 51
+  NobilitySpacer1:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 46
+  NobilitySpacer2:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 47
+  NobilitySpacer3:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 48
+  NobilitySpacer4:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 49
+  NobilitySpacer5:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 50
+  NobilitySpacer6:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 51
+  NobilitySpacer7:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 52
+  NobilitySpacer8:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 53
+  NobilitySpacer9:
+    PriceType: None
+    RewardType: None
+    MenuItem:
+    - type:BLUE_STAINED_GLASS_PANE
+    - 'name:&r&9Nobility Shop'
+    InventoryLocation: 54

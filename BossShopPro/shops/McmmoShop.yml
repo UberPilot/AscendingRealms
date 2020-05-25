@@ -1,0 +1,652 @@
+ShopName: McmmoShop
+DisplayName: '&8&m-------&r &3MCMMO &8&m---------&r'
+Command: mcmmo
+shop:
+  Mining:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - mining
+      RewardType2: close
+    MenuItem:
+    - type:IRON_PICKAXE
+    - amount:1
+    - name:&3Mining
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_mining%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 12
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem mining 1
+    PriceType_right: nothing
+  Excavation:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - excavation
+      RewardType2: close
+    MenuItem:
+    - type:IRON_SHOVEL
+    - amount:1
+    - name:&3Excavation
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_excavation%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 13
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem excavation 1
+    PriceType_right: nothing
+  Swords:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - swords
+      RewardType2: close
+    MenuItem:
+    - type:IRON_SWORD
+    - amount:1
+    - name:&3Swords
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_swords%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 14
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem swords 1
+    PriceType_right: nothing
+  Axes:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - axes
+      RewardType2: close
+    MenuItem:
+    - type:IRON_AXE
+    - amount:1
+    - name:&3Axes
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_axes%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 15
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem axes 1
+    PriceType_right: nothing
+  Fishing:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - fishing
+      RewardType2: close
+    MenuItem:
+    - type:FISHING_ROD
+    - amount:1
+    - name:&3Fishing
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_fishing%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 16
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem fishing 1
+    PriceType_right: nothing
+  Archery:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - archery
+      RewardType2: close
+    MenuItem:
+    - type:BOW
+    - amount:1
+    - name:&3Archery
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_archery%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 22
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem archery 1
+    PriceType_right: nothing
+  Alchemy:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - alchemy
+      RewardType2: close
+    MenuItem:
+    - type:POTION
+    - 'potioneffect:STRENGTH#1#1'
+    - amount:1
+    - name:&3Alchemy
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_alchemy%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 23
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem alchemy 1
+    PriceType_right: nothing
+  Acrobatics:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - acrobatics
+      RewardType2: close
+    MenuItem:
+    - type:FEATHER
+    - amount:1
+    - name:&3Acrobatics
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_acrobatics%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 24
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem acrobatics 1
+    PriceType_right: nothing
+  Woodcutting:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - woodcutting
+      RewardType2: close
+    MenuItem:
+    - type:OAK_WOOD
+    - amount:1
+    - name:&3Woodcutting
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_woodcutting%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 30
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem woodcutting 1
+    PriceType_right: nothing
+  Herbalism:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - herbalism
+      RewardType2: close
+    MenuItem:
+    - type:SWEET_BERRIES
+    - amount:1
+    - name:&3Herbalism
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_herbalism%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 31
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem herbalism 1
+    PriceType_right: nothing
+  Taming:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - taming
+      RewardType2: close
+    MenuItem:
+    - type:BONE
+    - amount:1
+    - name:&3Taming
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_taming%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 32
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem taming 1
+    PriceType_right: nothing
+  Repair:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - repair
+      RewardType2: close
+    MenuItem:
+    - type:ANVIL
+    - amount:1
+    - name:&3Repair
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_repair%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 33
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem repair 1
+    PriceType_right: nothing
+  Unarmed:
+    RewardType: AND
+    PriceType: nothing
+    Reward:
+      RewardType1: playercommand
+      Reward1:
+      - unarmed
+      RewardType2: close
+    MenuItem:
+    - type:RABBIT_FOOT
+    - amount:1
+    - name:&3Unarmed
+    - "lore:&f#&3\u00bb &fLevel: &b%mcmmo_level_unarmed%#&3\u00bb &bClick&7 for more info.#&3\u00bb &bRight Click&7 to redeem credits.#&3\u00bb &7You have &b%morphredeem_credits% &7credits."
+    - hideflags:all
+    InventoryLocation: 34
+    RewardType_right: playercommand
+    Reward_right: 
+    - redeem unarmed 1
+    PriceType_right: nothing
+  PowerLevel:
+    RewardType: playercommand
+    Reward:
+    - mcstats
+    MenuItem:
+    - type:PLAYER_HEAD
+    - amount:1
+    - 'playerhead:%player%'
+    - name:&3%player%
+    - "lore:&f#&3\u00bb &7Power Level: &b%mcmmo_power_level%#&3\u00bb &bClick&7 for more info."
+    - hideflags:all
+    InventoryLocation: 49
+  Help:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:CHAIN_COMMAND_BLOCK
+    - amount:1
+    - 'name:&3mcMMO Commands'
+    - "lore:&f#&3\u00bb &f/stats &7- Check your stats.#&3\u00bb &f/mcrank &7- See how you stack up against others.#&3\u00bb &f/mctop &7- See who has the top power level.#&3\u00bb &f/inspect <player> &7- Look at another player's stats.#&3\u00bb &f/mcsb keep &7- Keep the scoreboard.#&3\u00bb &f/mcsb clear &7- Turn the scoreboard off.#&3\u00bb &f/party ? &7- See party help."
+
+    InventoryLocation: 51
+  Filler1:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 1
+  Filler2:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 2
+  Filler3:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 3
+  Filler4:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 4
+  Filler5:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 5
+  Filler6:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 6
+  Filler7:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 7
+  Filler8:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 8
+  Filler9:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 9
+  Filler10:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 10
+  Filler11:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 11
+  Filler12:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 12
+  Filler13:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 13
+  Filler14:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 14
+  Filler15:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 15
+  Filler16:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 16
+  Filler17:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 17
+  Filler18:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 18
+  Filler19:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 19
+  Filler20:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 20
+  Filler21:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 21
+  Filler22:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 22
+  Filler23:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 23
+  Filler24:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 24
+  Filler25:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 25
+  Filler26:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 26
+  Filler27:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 27
+  Filler28:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 28
+  Filler29:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 29
+  Filler30:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 30
+  Filler31:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 31
+  Filler32:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 32
+  Filler33:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 33
+  Filler34:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 34
+  Filler35:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 35
+  Filler36:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 36
+  Filler37:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 37
+  Filler38:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 38
+  Filler39:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 39
+  Filler40:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 40
+  Filler41:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 41
+  Filler42:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 42
+  Filler43:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 43
+  Filler44:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 44
+  Filler45:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 45
+  Filler46:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 46
+  Filler47:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 47
+  Filler48:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 48
+  Filler49:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 49
+  Filler50:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 50
+  Filler51:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 51
+  Filler52:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 52
+  Filler53:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 53
+  Filler54:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:GRAY_STAINED_GLASS_PANE
+    - 'name:&f'
+    InventoryLocation: 54

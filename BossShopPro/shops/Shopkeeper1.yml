@@ -1,0 +1,139 @@
+ShopName: Shopkeeper1
+DisplayName: '&3Shopkeeper'
+shop:
+  Coal:
+    MenuItem:
+    - type:COAL
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:COAL
+      - amount:1
+    Price:
+    - - type:COAL
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 1
+    Reward_right: 1
+  Iron:
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:IRON_INGOT
+      - amount:1
+    Price:
+    - - type:IRON_INGOT
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 1
+    Reward_right: 1
+  Quartz:
+    MenuItem:
+    - type:QUARTZ
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:QUARTZ
+      - amount:1
+    Price:
+    - - type:QUARTZ
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 2
+    Reward_right: 2
+  Redstone:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:REDSTONE
+      - amount:1
+    Price:
+    - - type:REDSTONE
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 2
+    Reward_right: 2
+  Lapis:
+    MenuItem:
+    - type:LAPIS_LAZULI
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:LAPIS_LAZULI
+      - amount:1
+    Price:
+    - - type:LAPIS_LAZULI
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 2
+    Reward_right: 2
+  Gold:
+    MenuItem:
+    - type:GOLD_INGOT
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:GOLD_INGOT
+      - amount:1
+    Price:
+    - - type:GOLD_INGOT
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 2
+    Reward_right: 2
+  Emerald:
+    MenuItem:
+    - type:EMERALD
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:EMERALD
+      - amount:1
+    Price:
+    - - type:EMERALD
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 5
+    Reward_right: 5
+  Diamond:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - 'lore:&f#&fSells for %reward%&f.#&bLeft click&f to sell one#&bRight click&f to sell all'
+    PriceType: item
+    PriceType_right: itemall
+    Price_right:
+    - - type:DIAMOND
+      - amount:1
+    Price:
+    - - type:DIAMOND
+      - amount:1
+    RewardType: money
+    RewardType_right: money
+    Reward: 5
+    Reward_right: 5

@@ -1,0 +1,224 @@
+ShopName: NameColorShop
+Command: namecolor:nc
+DisplayName: '&bName Color Shop'
+shop:
+  WhiteDonor:
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    PriceType: none
+    Reward:
+    - lp user %name% meta set namecolor &f
+    MenuItem:
+    - type:WHITE_DYE
+    - amount:1
+    - name:&r&fWhite
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+    InventoryLocation: 1
+  White:
+    RewardType: command
+    PriceType: item
+    Price:
+    - - type:WHITE_DYE
+      - amount:1
+    Reward:
+    - lp user %name% meta set namecolor &f
+    MenuItem:
+    - type:WHITE_DYE
+    - amount:1
+    - name:&r&fWhite
+    - 'lore:&f#&fPrice: &b1 x White Dye'
+    InventoryLocation: 1
+  PinkDonor:
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    PriceType: None
+    Reward:
+    - lp user %name% meta set namecolor &d
+    MenuItem:
+    - type:PINK_DYE
+    - amount:1
+    - name:&r&dPink
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+    InventoryLocation: 3
+  Pink:
+    RewardType: command
+    PriceType: item
+    Price:
+    - - type:PINK_DYE
+      - amount:1
+    Reward:
+    - lp user %name% meta set namecolor &d
+    MenuItem:
+    - type:PINK_DYE
+    - amount:1
+    - name:&r&dPink
+    - 'lore:&f#&fPrice: &b1 x Pink Dye'
+    InventoryLocation: 3
+  YellowDonor:
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    PriceType: None
+    Reward:
+      - lp user %name% meta set namecolor &e
+    MenuItem:
+      - type:YELLOW_DYE
+      - amount:1
+      - name:&r&eYellow
+      - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+    InventoryLocation: 5
+  Yellow:
+    RewardType: command
+    PriceType: item
+    Price:
+    - - type:YELLOW_DYE
+      - amount:1
+    Reward:
+      - lp user %name% meta set namecolor &e
+    MenuItem:
+      - type:YELLOW_DYE
+      - amount:1
+      - name:&r&eYellow
+      - 'lore:&f#&fPrice: &b1 x Yellow Dye'
+    InventoryLocation: 5
+  LimeDonor:
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    PriceType: None
+    Reward:
+    - lp user %name% meta set namecolor &a
+    MenuItem:
+    - type:LIME_DYE
+    - amount:1
+    - name:&r&aLime
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+    InventoryLocation: 7
+  Lime:
+    RewardType: command
+    PriceType: item
+    Price:
+    - - type:LIME_DYE
+      - amount:1
+    Reward:
+    - lp user %name% meta set namecolor &a
+    MenuItem:
+    - type:LIME_DYE
+    - amount:1
+    - name:&r&aGreen
+    - 'lore:&f#&fPrice: &b1 x Lime Dye'
+    InventoryLocation: 7
+  LightBlueDonor:
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    PriceType: None
+    Reward:
+    - lp user %name% meta set namecolor &b
+    MenuItem:
+    - type:LIGHT_BLUE_DYE
+    - amount:1
+    - name:&r&bLight Blue
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+    InventoryLocation: 9
+  LightBlue:
+    RewardType: command
+    PriceType: item
+    Price:
+    - - type:light_blue_dye
+      - amount:1
+    Reward:
+    - lp user %name% meta set namecolor &b
+    MenuItem:
+    - type:LIGHT_BLUE_DYE
+    - amount:1
+    - name:&r&bLight Blue
+    - 'lore:&f#&fPrice: &b1 x Light Blue Dye'
+    InventoryLocation: 9
+  RedDonor:
+    InventoryLocation: 11
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    Reward:
+    - lp user %name% meta set namecolor &c
+    MenuItem:
+    - type:RED_DYE
+    - amount:1
+    - name:&r&cRed
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+  Red:
+    MenuItem:
+    - type:RED_DYE
+    - amount:1
+    - name:&r&cRed
+    - 'lore:&f#&bDonor Exclusive'
+    InventoryLocation: 11
+  OrangeDonor:
+    InventoryLocation: 13
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    Reward:
+    - lp user %name% meta set namecolor &6
+    MenuItem:
+    - type:ORANGE_DYE
+    - amount:1
+    - name:&r&6Orange
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+  Orange:
+    MenuItem:
+    - type:ORANGE_DYE
+    - amount:1
+    - name:&r&6Orange
+    - 'lore:&f#&bDonor Exclusive'
+    InventoryLocation: 13
+  GreenDonor:
+    InventoryLocation: 15
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    Reward:
+    - lp user %name% meta set namecolor &2
+    MenuItem:
+    - type:GREEN_DYE
+    - amount:1
+    - name:&r&2Green
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+  Green:
+    MenuItem:
+    - type:GREEN_DYE
+    - amount:1
+    - name:&r&2Green
+    - 'lore:&f#&bDonor Exclusive'
+    InventoryLocation: 15
+  CyanDonor:
+    InventoryLocation: 17
+    Condition:
+      - type:permission
+      - match:groups.donor
+    RewardType: command
+    Reward:
+    - lp user %name% meta set namecolor &3
+    MenuItem:
+    - type:CYAN_DYE
+    - amount:1
+    - name:&r&3Cyan
+    - 'lore:&f#&fPrice: &bFree! Thanks for donating!'
+  Cyan:
+    MenuItem:
+    - type:CYAN_DYE
+    - amount:1
+    - name:&r&3Cyan
+    - 'lore:&f#&bDonor Exclusive'
+    InventoryLocation: 17

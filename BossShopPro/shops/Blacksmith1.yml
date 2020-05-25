@@ -1,0 +1,26 @@
+ShopName: Blacksmith1
+DisplayName: '&8Blacksmith [Level 1]'
+shop:
+  Steel:
+    MenuItem:
+    - type:IRON_INGOT
+    - amount:1
+    - durability:0
+    - name:&rSteel Ingot
+    - lore1:&7A stronger crafting material
+    - lore2:&7than iron.
+    - 'lore3:&7Rarity: &fCommon'
+    - 'lore4:&7Category: &fIngredient'
+    - 'lore5:&f'
+    - 'lore6:&7Requires: &b1 x Iron Ingot, 1 x Coal'
+    - CustomModelData:2
+    RewardType: command
+    Reward:
+    - 'customcrafting give %player% common:steel_ingot'
+    PriceType: item
+    Price:
+    - - type:IRON_INGOT
+      - amount:1
+    - - type:COAL
+      - amount:1
+    InventoryLocation: 2

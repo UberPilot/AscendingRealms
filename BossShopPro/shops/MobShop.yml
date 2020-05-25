@@ -1,0 +1,128 @@
+ShopName: MobShop
+DisplayName: '&3Mob Drop Shop'
+Command: sell
+shop:
+  ZombieFlesh:
+    PriceType: item
+    RewardType: money
+    Price: 
+    - - type:ROTTEN_FLESH
+      - amount:1
+      - durability:0
+      - name:&bReanimated Flesh
+      - lore1:&7This flesh still moves
+      - lore2:&7as you hold it.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+    Reward: 50
+    MenuItem: 
+      - type:ROTTEN_FLESH
+      - amount:1
+      - durability:0
+      - name:&bReanimated Flesh
+      - lore1:&7This flesh still moves
+      - lore2:&7as you hold it.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+      - 'lore6:&fIt sells for %reward%&f.'
+  InscribedBone:
+    PriceType: item
+    RewardType: money
+    Price: 
+    - - type:BONE
+      - amount:1
+      - durability:0
+      - name:&bInscribed Bone
+      - lore1:&7This bone has tiny
+      - lore2:&7runes carved into it.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+    Reward: 50
+    MenuItem: 
+      - type:BONE
+      - amount:1
+      - durability:0
+      - name:&bInscribed Bone
+      - lore1:&7This bone has tiny
+      - lore2:&7runes carved into it.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+      - 'lore6:&fIt sells for %reward%&f.'
+  SeerEye:
+    PriceType: item
+    RewardType: money
+    Price:
+    - - type:SPIDER_EYE
+      - amount:1
+      - durability:0
+      - name:&bSeer Eye
+      - lore1:&7This eye twitches
+      - lore2:&7to look at you.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+    Reward: 75
+    MenuItem:
+      - type:SPIDER_EYE
+      - amount:1
+      - durability:0
+      - name:&bSeer Eye
+      - lore1:&7This eye twitches
+      - lore2:&7to look at you.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+      - 'lore6:&fIt sells for %reward%&f.'
+  ActivatedGunpowder:
+    PriceType: item
+    RewardType: money
+    Price:
+    - - type:GUNPOWDER
+      - amount:1
+      - durability:0
+      - name:&bActivated Gunpowder
+      - lore1:&7Tiny shards of green
+      - lore2:&7dot this gunpowder.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+    Reward: 75
+    MenuItem:
+      - type:GUNPOWDER
+      - amount:1
+      - durability:0
+      - name:&bActivated Gunpowder
+      - lore1:&7Tiny shards of green
+      - lore2:&7dot this gunpowder.
+      - 'lore3:&7Rarity: &bUncommon'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+      - 'lore6:&fIt sells for %reward%&f.'
+  VoidPearl:
+    PriceType: item
+    RewardType: money
+    Price: 
+    - - type:ENDER_PEARL
+      - amount:1
+      - name:&dVoid Pearl
+      - lore1:&7A dark galaxy
+      - lore2:&7swirls within this pearl.
+      - 'lore3:&7Rarity: &dRare'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+    Reward: 100
+    MenuItem:
+      - type:ENDER_PEARL
+      - amount:1
+      - name:&dVoid Pearl
+      - lore1:&7A dark galaxy
+      - lore2:&7swirls within this pearl.
+      - 'lore3:&7Rarity: &dRare'
+      - 'lore4:&7Category: &fIngredient'
+      - CustomModelData:2
+      - 'lore6:&fIt sells for %reward%&f.'
+

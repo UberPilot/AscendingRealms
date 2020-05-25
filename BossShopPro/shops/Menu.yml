@@ -1,0 +1,53 @@
+ShopName: Menu
+shop:
+  MaterialShop:
+    RewardType: shop
+    PriceType: None
+    Reward: MaterialShop
+    MenuItem:
+    - type:STONE
+    - amount:1
+    - name:&3Material Shop
+    - 'lore:&7Buy building materials in bulk.#&f#&b/materials'
+    InventoryLocation: 1
+  MobShop:
+    RewardType: shop
+    PriceType: None
+    Reward: MobShop
+    MenuItem:
+    - type:GOLD_NUGGET
+    - amount:1
+    - name:&bSell Shop
+    - 'lore:&7Sell rare mob drops for#&7extra money.#&f#&b/sell'
+    InventoryLocation: 3
+  NameColors:
+    RewardType: shop
+    PriceType: None
+    Reward: NameColorShop
+    MenuItem:
+    - type:PINK_DYE
+    - amount:1
+    - name:&3Name Color Shop
+    - 'lore:&7Change your name color#&7in exchange for dye.#&f#&b/namecolor'
+    InventoryLocation: 5
+  HeadShop:
+    RewardType: playercommand
+    PriceType: None
+    Reward:
+    - hdb
+    MenuItem:
+    - type:PLAYER_HEAD
+    - 'playerhead: %player%'
+    - name:&bHead Shop
+    - 'lore:&7Buy player heads.#&f#&b/hdb'
+    InventoryLocation: 7
+  RankShop:
+    RewardType: playercommand
+    PriceType: None
+    Reward:
+    - buy
+    MenuItem:
+    - type:DIAMOND
+    - name:&3Rank Shop
+    - 'lore:&7Buy ranks and support the server.'
+    InventoryLocation: 9
