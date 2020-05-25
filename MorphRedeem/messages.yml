@@ -1,0 +1,123 @@
+Commands:
+  Header: '&f----------- &3MorphRedeem Commands &f----------'
+  Footer: '&f--------------------- &7[&3!&7] &f---------------------'
+  Help: '&b/mr help &7- &fShows this text menu.'
+  MR: '&b/mr &7- &fOpens the redeem menu.'
+  MRSkill: '&b/mr <skill> <num> &7- &fRedeem credits into a specified skill.'
+  Credits: '&b/mr credits &7- &fShows your credit count.'
+  CreditsOthers: '&b/mr credits <player> &7- &fSee a players credit count.'
+  Send: '&b/mr send <player> <num> &7- &fSend a player credits.'
+  Add: '&3[Admin] &b/mr add <player> <num> &7- &fAdd credits to a players credit balance.'
+  Remove: '&3[Admin] &b/mr remove <player> <num>&7- &fRemove credits to a players
+    credit balance.'
+  Reload: '&3[Admin] &b/mr reload &7- &fReloads the plugins files.'
+  Set: '&3[Admin] &b/mr set <player> <num> &7- &fSet a players credit balance.'
+  Reset: '&3[Admin] &b/mr reset <player> &7- &fReset a players credit balance.'
+CorrectUsage:
+  Add: '&bCorrect Ussage&7: &f/mr add <player> <number>'
+  Remove: '&bCorrect Ussage&7: &f/mr remove <player> <number>'
+  Reset: '&bCorrect Ussage&7: &f/mr reset <player>'
+  Set: '&bCorrect Ussage&7: &f/mr set <player> <number>'
+  Send: '&bCorrect Ussage&7: &f/mr send <player> <number>'
+CreditAddMessage: '&fYou have been given &b%CREDITS% &fcredits!'
+CreditAddSuccessMessage: '&fCredit assignment successfull!'
+CreditAssignmentCanceled: '&fCredit assignment canceled successfully!'
+CreditAssignmentMessage: '&fPlease specify the amount of credits you would like to
+  add. Write 0 in chat to cancel! &b(&bCredits&7: &f%CREDITS%&7)'
+CreditAssignmentSuccess: '&fYou successfully applied &b%CREDITS%&f credits to the
+  &b%SKILL% &fskill!'
+CreditInProgressMessage: '&fYou''re currently assigning credits to &b%SKILL%&f. Write
+  0 in chat to cancel! &7(&bCredits&7: &f%CREDITS%&7)'
+CreditRemoveMessage: '&f&b%CREDITS% &fcredits have been removed from you!'
+CreditRemoveSuccessMessage: '&fCredit removal successfull!'
+CreditResetMessage: '&fYour credits have been reset!'
+CreditResetSuccessMessage: '&fCredits successfully reset!'
+CreditSendMessage: '&fYou have been sent &b%CREDITS% &fcredits from &b%SENDER%&f.'
+CreditSendSuccessMessage: '&fYou sent &b%CREDITS% &fcredits to &b%TARGET%&f.'
+CreditSetMessage: '&fYour credits have been set to &b%CREDITS%&f.'
+CreditSetSuccessMessage: '&fCredits successfull set!'
+ErrorPrefix: '&3AR &7» '
+IgnoreFormat: '[X]'
+InvalidArgsMessage: '&bInvalid arguments! &f/mr help &bto view all commands.'
+InvalidCredits: '&bYou do not have enough credits for that.'
+InvalidNumber: '&bThe message entered was not recognized as a number! Canceling credit
+  assignment.'
+InvalidNumberNegative: '&bThe number you entered was not positive! Canceling credit
+  assignment.'
+InvalidPlayer: '&bCannot find that player!'
+InvalidSkill: '&bThe argument entered was not recognized as a skill!'
+McMMOPlayerNotLoadedMessage: '&bYour mcMMO player file has not been loaded yet!
+  Please try again in a few seconds.'
+Menu:
+  Title: '&3mcMMO Redeem'
+  Acrobatics:
+    Name: '&3Acrobatics&7:'
+    Lore: &id001
+    - ' '
+    - '&fClick to assign credits!'
+    - ' '
+    - '&b» &fLevel Cap&7: &f%LEVELCAP%'
+    - '&b» &fSkill Level&7: &f%SKILLLEVEL%'
+  Alchemy:
+    Name: '&3Alchemy&7:'
+    Lore: *id001
+  Archery:
+    Name: '&3Archery&7:'
+    Lore: *id001
+  Axes:
+    Name: '&3Axes&7:'
+    Lore: *id001
+  Excavation:
+    Name: '&3Excavation&7:'
+    Lore: *id001
+  Fishing:
+    Name: '&3Fishing&7:'
+    Lore: *id001
+  Herbalism:
+    Name: '&3Herbalism&7:'
+    Lore: *id001
+  Mining:
+    Name: '&3Mining&7:'
+    Lore: *id001
+  Repair:
+    Name: '&3Repair&7:'
+    Lore: *id001
+  Swords:
+    Name: '&3Swords&7:'
+    Lore: *id001
+  Taming:
+    Name: '&3Taming&7:'
+    Lore: *id001
+  Unarmed:
+    Name: '&3Unarmed&7:'
+    Lore: *id001
+  Woodcutting:
+    Name: '&3Woodcutting&7:'
+    Lore: *id001
+  mcMMOCredits:
+    Name: '&3mcMMO Credits&7:'
+    Lore:
+    - '&b» &f%MCMMOCREDITS%'
+  CreditsSpent:
+    Name: '&3Credits Spent&7:'
+    Lore:
+    - '&b» &f%CREDITSSPENT%'
+  PluginCredits:
+    Name: '&3Plugin Credits&7:'
+    Lore:
+    - '&3Version&7: &f1.2.0'
+    - ' '
+    - '&bCode Contributors&7:'
+    - '&7- &fMorphie'
+    - ' '
+    - '&b&oClick for spigot link!'
+NoPermsMessage: '&bYou don''t have permission to do this!'
+NoSkillCap: '&bNone'
+OtherPlayerCreditMessage: '&b%PLAYER% &fcurrently has &b%CREDITS% &fcredits.'
+PlayerCreditsMessage: '&fYou currently have &b%CREDITS% &fcredits.'
+Prefix: '&3AR &7» '
+ReloadMessage: '&fPlugin files successfully reloaded!'
+SkillCapReached: '&fYou tried to get to level &b%LEVEL% &fin &b%SKILL%&f, but the
+  skill cap is &b%CAP%&f.'
+SkillDisabledMessage: '&fThis skill has been disabled by administration!'
+SpigotLink: '&fhttps://www.spigotmc.org/resources/morphredeem-mcmmo-credits-1-14.67435/'

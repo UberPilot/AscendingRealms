@@ -1,0 +1,12 @@
+prefix: '&8[&6Infinite Vouchers&8] &7'
+error-bad-amount: "The amount specified must be a number!"
+error-bad-sound: "The sound specified for the voucher &e%voucher% &7doesn't exist!"
+error-missing-item: "The voucher &e%voucher% &7doesn't have an item set to it!"
+error-no-permission: "You need the permission &e%permission% &7to use this command!"
+error-offline: "&e%player% &7is offline!"
+error-specify-player: "You must specify a player!"
+error-specify-voucher: "You must specify a voucher!"
+error-unknown-voucher: "Unknown voucher &e%voucher%&7!"
+voucher-given: "You've given &e%player% %amount%x %voucher% &7vouchers."
+#Do not change this you could screw up the command!
+vouchers: "%vouchers%"

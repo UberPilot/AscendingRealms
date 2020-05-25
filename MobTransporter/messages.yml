@@ -1,0 +1,107 @@
+# Messages:
+Prefix: '&7[&5Mob&bTransporter&7] '
+Commands:
+  reload: '&7Plugin configuration and messages were reloaded.'
+  usage: '&7Correct usage:'
+  added: '&7The transporter was added to your inventory.'
+  added-others: '&7The transporter was added to their inventory.'
+  received: '&7A mob transporter was added to your inventory.'
+  user-only: '&7Only in-game players can use this option.'
+  not-enough-space: '&7You don''t have enough space in your inventory.'
+  not-enough-space-others: '&7They don''t have enough space in their inventory.'
+  invalid-number: '&7The argument must be a valid number.'
+  player-not-found: '&7Player not found.'
+Transporter:
+  item:
+    name: '&a&lMob Transporter'
+    mob: '&7Mob: &b%mob%'
+    usages: '&7Usages: &e%usages%/%maxUsages%'
+  usage:
+    released: '&7You have released the mob.'
+    no-perms: '&7You don''t have permissions to place mobs.'
+    no-mob: '&7Your captured mob was not found. A use was restored.'
+    stacked: '&7You can only use one mob transporter at a time.'
+  charge:
+    success: '&7You have charged the transporter.'
+    no-items: '&7You need x%quantity% of %item% in your inventory in order to charge
+      the transporter.'
+    limit: '&7The transporter is already fully charged.'
+  capture:
+    success: '&7You have captured a &e%mob%&7.'
+    specific-mob: '&7You don''t have permissions to capture this specific mob.'
+    no-perms: '&7You don''t have permissions to capture mobs.'
+    contains-mob: '&7This transporter already contains a mob.'
+    no-usages: '&7The transporter doesn''t have any usages left.'
+  general:
+    prohibited-world: '&7You cannot use the mob transporter in this world.'
+    protected-zone: '&7You cannot use the mob transporter in this protected zone.'
+    mounted-mob: '&7You cannot capture mobs that are being mounted.'
+    citizens-npc: '&7You cannot capture a NPC.'
+Mob-name:
+  BAT: Bat
+  BEE: Bee
+  BLAZE: Blaze
+  CAT: Cat
+  CAVE_SPIDER: Cave Spider
+  CHICKEN: Chicken
+  COD: Cod
+  COW: Cow
+  CREEPER: Creeper
+  DOLPHIN: Dolphin
+  DONKEY: Donkey
+  DROWNED: Drowned
+  ELDER_GUARDIAN: Elder Guardian
+  ENDER_DRAGON: Ender Dragon
+  ENDERMAN: Enderman
+  ENDERMITE: Endermite
+  EVOKER: Evoker
+  FOX: Fox
+  GHAST: Ghast
+  GIANT: Giant
+  GUARDIAN: Guardian
+  HORSE: Horse
+  HUSK: Husk
+  ILLUSIONER: Illusioner
+  IRON_GOLEM: Iron Golem
+  LLAMA: Llama
+  MAGMA_CUBE: Magma Cube
+  MULE: Mule
+  MUSHROOM_COW: Mushroom Cow
+  NONE: None
+  OCELOT: Ocelot
+  PANDA: Panda
+  PARROT: Parrot
+  PHANTOM: Phantom
+  PIG: Pig
+  PIG_ZOMBIE: Zombie Pigman
+  PILLAGER: Pillager
+  POLAR_BEAR: Polar Bear
+  PUFFERFISH: Puffer Fish
+  RABBIT: Rabbit
+  RAVAGER: Ravager
+  SALMON: Salmon
+  SHEEP: Sheep
+  SHULKER: Shulker
+  SILVERFISH: Silverfish
+  SKELETON: Skeleton
+  SKELETON_HORSE: Skeleton Horse
+  SLIME: Slime
+  SNOWMAN: Snow Golem
+  SPIDER: Spider
+  SQUID: Squid
+  STRAY: Stray
+  TRADER_LLAMA: Trader Llama
+  TROPICAL_FISH: Tropical Fish
+  TURTLE: Turtle
+  UNKNOWN: Unknown
+  VEX: Vex
+  VILLAGER: Villager
+  VINDICATOR: Vindicator
+  WANDERING_TRADER: Wandering Trader
+  WITCH: Witch
+  WITHER: Wither
+  WITHER_SKELETON: Wither Skeleton
+  WOLF: Wolf
+  ZOMBIE: Zombie
+  ZOMBIE_HORSE: Zombie Horse
+  ZOMBIE_VILLAGER: Zombie Villager
