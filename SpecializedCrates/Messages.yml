@@ -1,0 +1,42 @@
+no-permissions: '&3AR &7» &bYou do not have the correct permission: %permission%'
+fail-open: '&3AR &7» &bYou do not have the proper key for this crate!'
+already-opening-crate: '&3AR &7» &bYou are already opening a crate, you must wait
+  until it is done!'
+inventory-too-full: '&3AR &7» &bYour inventory is too full.'
+placed-crate: '&3AR &7» &fYou have placed the %crate% crate!'
+broken-crate: '&3AR &7» &fYou have broken a %crate%.'
+failed-break-crate: '&3AR &7» &bYou failed to break the %crate% because it is %reason%.'
+denied-use-crate: '&3AR &7» &bThis crate is not obtainable by being placed.'
+no-key-use: '&3AR &7» &bThis crate is not openable by using a key.'
+deny-creative-mode: '&3AR &7» &bThis action cannot be performed in Creative Mode.'
+deny-place-key: '&3AR &7» &bYou do not have permission to place a key.'
+cooldown-start: '&3AR &7» &fThe %crate% crate is now on cooldown for %days% days,
+  %hours% hours, %minutes% minutes, %seconds% seconds.'
+cooldown-end: '&3AR &7» &fYou no longer have a cooldown for the %crate% crate.'
+crate-on-cooldown: '&3AR &7» &bThe %crate% crate is on cooldown for for %days% days,
+  %hours% hours, %minutes% minutes, %seconds% seconds..'
+found-lucky-chest: '&3AR &7» &fYou have discovered a lucky chest!'
+wait-one-second: '&3AR &7» &bYou must wait 1 second to perform this action.'
+crate-disabled: '&3AR &7» &bThis crate is disabled and cannot be used.'
+denied-place-location: '&3AR &7» &bYou cannot place a crate in this location!'
+toggle-luckycrate: '&3AR &7» &fYou have toggled luckycrates to %state%.'
+no-permission-crate: '&3AR &7» &bYou do not have the permission to use this crate.'
+opening-virtualcrates: '&3AR &7» &fOpening the virtual crates menu.'
+insufficient-virtual-crates: '&3AR &7» &bYou do not have enough virtual crates to
+  open this.'
+confirm-open-all: '&3AR &7» &fConfirm opening ALL KEYS AT ONCE by shift-clicking again.
+  This will cancel after %timeout% seconds.'
+confirm-open: '&3AR &7» &fConfirm opening crate by clicking again. This will cancel
+  after %timeout% seconds.'
+loading-from-database: '&3AR &7» &fPlease wait till your information is loaded.'
+placeholder-seconds: seconds
+placeholder-minutes: minutes
+placeholder-hours: hours
+placeholder-days: days
+economy-not-enough-money: '&3AR &7» &bYou do not have enough money, you need %amount%
+  and are %short% short.'
+command-rewards-usage: '&3AR &7» &bUsage: /rewards [crate name]'
+command-rewards-opening: '&3AR &7» &fOpening reward preview for %crate% crate.'
+command-rewards-invalid-crate: '&3AR &7» &b%crate% is not a valid crate.'
+cant-craft-keys: '&3AR &7» &bYou are not allowed to craft keys.'
+received-virtual-key: '&3AR &7» &fYou just received a virtual %crate% key!'

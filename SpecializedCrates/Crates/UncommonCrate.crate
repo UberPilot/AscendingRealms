@@ -1,0 +1,273 @@
+enabled: true
+obtain-method: STATIC
+inventory-name: '&bUncommon Crate'
+reward-display:
+  name: '&bUncommon Crate Rewards'
+  type: IN_ORDER
+display:
+  type: Block
+crate:
+  material: CHEST
+  name: '&bUncommon Crate'
+
+
+  glow: false
+  amount: 1
+key:
+  require: true
+  material: TRIPWIRE_HOOK
+  name: '&bUncommon Crate Key'
+
+
+  glow: false
+  amount: 1
+rewards:
+- 100g
+- 250g
+- 500g
+- 750g
+- 10mcmmo
+- 25mcmmo
+- 50mcmmo
+- Sharpness5Book
+- MendingBook
+- SilktouchBook
+- Unbreaking3Book
+- Eff5Book
+- Elytra
+- RareKey
+- 5TownBlocks
+- 10TownBlocks
+open:
+  crate-animation: INV_CSGO
+  crate-tiers:
+    uncommon:
+      particles:
+        '1':
+          type: SPELL_WITCH
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.01
+          amount: 100
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+        '2':
+          type: FLAME
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.05
+          amount: 50
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+    rare:
+      particles:
+        '1':
+          type: SPELL_WITCH
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.01
+          amount: 100
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+        '2':
+          type: FLAME
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.05
+          amount: 50
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+      sounds:
+      - ENTITY_ENDER_DRAGON_GROWL, 1, 5
+      - AMBIENT_CAVE, 1, 5
+    legendary:
+      particles:
+        '1':
+          type: SPELL_WITCH
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.01
+
+
+          amount: 100
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+        '2':
+          type: FLAME
+          range-x: 3.0
+          range-y: 3.0
+          range-z: 3.0
+          speed: 0.05
+
+
+          amount: 50
+          animation: NONE
+          center-x: 0.0
+          center-y: 0.0
+          center-z: 0.0
+
+
+          color:
+
+
+            enabled: false
+
+
+            red: 255
+
+
+            green: 0
+
+
+            blue: 0
+      sounds:
+      - ENTITY_ENDER_DRAGON_GROWL, 1, 5
+      - AMBIENT_CAVE, 1, 5
+      fireworks:
+      - BLACK, WHITE, false, true, STAR, 1
+
+
+    RAREsounds:
+
+
+    - ENTITY_ENDER_DRAGON_GROWL, 1, 5
+
+
+    - AMBIENT_CAVE, 1, 5
+
+
+    LEGENDARYsounds:
+
+
+    - ENTITY_ENDER_DRAGON_GROWL, 1, 5
+
+
+    - AMBIENT_CAVE, 1, 5
+
+hologram:
+  reward-hologram: '&b%reward%'
+  lines:
+  - '&bUncommon Crate'
+
+
+  animation:
+
+
+    prefixes: []
+
+
+    type: NONE
+
+
+    speed: 20
+
+
+  reward-hologram-duration: 60
+
+
+  reward-hologram-yoffset: 0.0
+
+
+cooldown: 0
+
+
+cost: -1
+
+
+allow-skip-animation: true
+
+
+hologram-offset: 0.0
+
+
+auto-close: true

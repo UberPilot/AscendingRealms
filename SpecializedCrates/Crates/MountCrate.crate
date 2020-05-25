@@ -1,0 +1,43 @@
+enabled: true
+cooldown: 0
+obtain-method: STATIC
+display:
+  type: Block
+hologram-offset: 0.0
+auto-close: true
+key:
+  require: true
+  material: REDSTONE_TORCH
+  glow: false
+  amount: 1
+  name: '&4Please set me!'
+cost: -1
+allow-skip-animation: true
+inventory-name: ''
+open:
+  crate-animation: INV_CSGO
+crate:
+  material: CHEST
+  glow: false
+  amount: 1
+  name: MountCrate
+hologram:
+  lines:
+  - '&fMount Crate'
+  animation:
+    prefixes: []
+    type: NONE
+    speed: 20
+  reward-hologram: '%reward%'
+  reward-hologram-duration: 60
+  reward-hologram-yoffset: 0.0
+rewards:
+- Farm_Steed
+- Wild_Steed
+- Trusty_Steed
+- Swift_Steed
+- Royal_Steed
+- Racing_Steed
+- Warhorse
+reward-display:
+  type: SORTED_HIGH_TO_LOW

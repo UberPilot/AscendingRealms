@@ -1,0 +1,818 @@
+Diamond:
+  commands:
+  - give {name} minecraft:diamond 1
+  chance: 10
+  rarity: rare
+  give-display-item:
+    value: false
+  display-item:
+    material: DIAMOND
+    name: '&cDiamond'
+    glow: true
+    amount: 1
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+Dirt:
+  chance: 20
+  rarity: common
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: DIRT
+    name: '&cDirt'
+    glow: true
+    amount: 1
+    lore:
+    - '&5This is a &a&lcustom lore!'
+    - '&c&oMake me unique to the default lore'
+    - '&c&oThat you can set in the config.yml'
+DiamondSword:
+  chance: 3
+  rarity: legendary
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: DIAMOND_SWORD
+    name: '&cDiamond Sword'
+    glow: false
+    amount: 1
+    enchantments:
+    - DURABILITY;10
+    - DAMAGE_ALL;5
+    - FIRE_ASPECT;2
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+MonsterEggsInAllVersions:
+  commands:
+  - give {name} minecraft:milk 1
+  chance: 5
+  rarity: legendary
+  give-display-item:
+    value: false
+  display-item:
+    material: CREEPER_SPAWN_EGG
+    name: '&cMonster-specific spawn eggs for all versions'
+    glow: false
+    amount: 1
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+Speed:
+  commands:
+  - effect {name} 1 60 1
+  - give {name} minecraft:milk 1
+  chance: 5
+  rarity: legendary
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: POTION
+    name: '&cSpeed Effect and Potion'
+    glow: false
+    amount: 1
+    potion-effects:
+    - SPEED;0;0
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+SuperGoldenApple:
+  chance: 7
+  rarity: legendary
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: GOLDEN_APPLE
+    name: '&cSuper Golden Apple'
+    glow: false
+    amount: 1
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+GoldenApple:
+  chance: 10
+  rarity: legendary
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: GOLDEN_APPLE
+    name: '&cGolden Apple'
+    glow: false
+    amount: 1
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+Grass:
+  commands:
+  - give {name} minecraft:grass
+  chance: 20
+  rarity: common
+  give-display-item:
+    value: true
+    lore: false
+  display-item:
+    material: GRASS
+    name: '&cGrass'
+    glow: true
+    amount: 1
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+SpecialDirt:
+  commands:
+  - give {name} minecraft:dirt 1
+  chance: 15
+  rarity: uncommon
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: DIRT
+    name: '&cSpecial Dirt'
+    glow: false
+    amount: 1
+    lore:
+    - '&eI'
+    - '&eam'
+    - '&cspecial!'
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+Jump:
+  commands:
+  - effect {name} 8 60 1
+  - give {name} minecraft:milk_bucket 1
+  chance: 7
+  rarity: rare
+  give-display-item:
+    value: false
+  display-item:
+    material: POTION
+    name: '&cJump Potion Effect'
+    glow: false
+    amount: 1
+    potion-effects:
+    - JUMP;0;0
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+SpecialDirt2:
+  chance: 10
+  rarity: rare
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: DIRT
+    name: '&cMore Special Dirt'
+    glow: false
+    amount: 1
+    lore:
+    - ''
+    - '&4&lSUPER RARE: &e%writtenchance%% &lCHANCE'
+    - ''
+    - '&7Get Special Dirt if you win this!'
+MyHead:
+  chance: 1.0
+  rarity: '1'
+  give-display-item:
+    value: true
+    with-lore: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&cZtowne13s Head'
+    glow: false
+    amount: 1
+    player-head-name: Ztowne13
+    lore:
+    - '&7-'
+    - '&eChance: &e%writtenchance%%'
+5g:
+  chance: 20.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r5g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 5
+10g:
+  chance: 10.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r10g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 10
+25g:
+  chance: 5.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r25g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 25
+50g:
+  chance: 7.5
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r50g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 50
+100g:
+  chance: 5.0
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b100g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 100
+250g:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b250g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 250
+500g:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b500g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 500
+750g:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&d750g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 750
+1000g:
+  chance: 2.5
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&d1000g'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - eco give {name} 1000
+5levels:
+  chance: 10.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r5 Levels'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA1NGMyOWM3ODA5MDQ3MWMxZWEwNThiZDY0MTg5NzM5MWM5ZTQ2OTRhYTlkMTQwYWZiYmE4ZDBjYzQzNjM3In19fQ=="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - xp give {name} 5L
+10levels:
+  chance: 5.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r10 Levels'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA1NGMyOWM3ODA5MDQ3MWMxZWEwNThiZDY0MTg5NzM5MWM5ZTQ2OTRhYTlkMTQwYWZiYmE4ZDBjYzQzNjM3In19fQ=="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - xp give {name} 10L
+25levels:
+  chance: 2.5
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r25 Levels'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA1NGMyOWM3ODA5MDQ3MWMxZWEwNThiZDY0MTg5NzM5MWM5ZTQ2OTRhYTlkMTQwYWZiYmE4ZDBjYzQzNjM3In19fQ=="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - xp give {name} 25L
+1mcmmo:
+  chance: 10.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r1 mcMMO Credit'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA1YTJjYWI4YjY4ZWE1N2UzYWY5OTJhMzZlNDdjOGZmOWFhODdjYzg3NzYyODE5NjZmOGMzY2YzMWEzOCJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - redeem add {name} 1
+5mcmmo:
+  chance: 5.0
+  rarity: Common
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&r5 mcMMO Credits'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZlYjM5ZDcxZWY4ZTZhNDI2NDY1OTMzOTNhNTc1M2NlMjZhMWJlZTI3YTBjYThhMzJjYjYzN2IxZmZhZSJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - redeem add {name} 5
+10mcmmo:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b10 mcMMO Credits'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q2OTVkMzM1ZTZiZThjYjJhMzRlMDVlMThlYTJkMTJjM2IxN2I4MTY2YmE2MmQ2OTgyYTY0M2RmNzFmZmFjNSJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - redeem add {name} 10
+25mcmmo:
+  chance: 1.0
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b25 mcMMO Credits'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNkYjhmNDM2NTZjMDZjNGU4NjgzZTJlNjM0MWI0NDc5ZjE1N2Y0ODA4MmZlYTRhZmYwOWIzN2NhM2M2OTk1YiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - redeem add {name} 25
+50mcmmo:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&d50 mcMMO Credits'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNkYjhmNDM2NTZjMDZjNGU4NjgzZTJlNjM0MWI0NDc5ZjE1N2Y0ODA4MmZlYTRhZmYwOWIzN2NhM2M2OTk1YiJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - redeem add {name} 50
+Eff5Book:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  commands:
+  - give {name} enchantedbook 1 efficiency:5
+  display-item:
+    material: ENCHANTED_BOOK
+    name: '&bEnchanted Book'
+    enchantments:
+    - dig_speed;5
+MendingBook:
+  rarity: Uncommon
+  chance: 1.0
+  give-display-item:
+    value: false
+  commands:
+  - give {name} enchantedbook 1 mending:1
+  display-item:
+    material: ENCHANTED_BOOK
+    name: '&bEnchanted Book'
+    enchantments:
+    - mending;1
+SilktouchBook:
+  rarity: Uncommon
+  chance: 2.5
+  give-display-item:
+    value: false
+  commands:
+  - give {name} enchantedbook 1 silktouch:1
+  display-item:
+    material: ENCHANTED_BOOK
+    name: '&bEnchanted Book'
+    enchantments:
+    - silk_touch;1
+Unbreaking3Book:
+  rarity: Uncommon
+  chance: 2.5
+  give-display-item:
+    value: false
+  commands:
+  - give {name} enchantedbook 1 unbreaking:3
+  display-item:
+    material: ENCHANTED_BOOK
+    name: '&bEnchanted Book'
+    enchantments:
+    - durability;5
+Sharpness5Book:
+  rarity: Uncommon
+  chance: 2.5
+  give-display-item:
+    value: false
+  commands:
+  - give {name} enchantedbook 1 sharpness:5
+  display-item:
+    material: ENCHANTED_BOOK
+    name: '&bEnchanted Book'
+    enchantments:
+    - damage_all;5
+Elytra:
+  rarity: Uncommon
+  chance: 1.0
+  commands:
+  - give {name} elytra 1
+  display-item:
+    name: '&bElytra'
+    material: ELYTRA
+UncommonKey:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: TRIPWIRE_HOOK
+    name: '&bUncommon Key'
+    glow: false
+    amount: 1
+  commands:
+  - scrates givekey UncommonCrate {name} 1 -v
+RareKey:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: TRIPWIRE_HOOK
+    name: '&dRare Key'
+    glow: false
+    amount: 1
+  commands:
+  - scrates givekey RareCrate {name} 1 -v
+UncommonPick:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: DIAMOND_PICKAXE
+    name: '&bUncommon Pickaxe'
+    glow: false
+    amount: 1
+  commands:
+  - give {name} diamond_pickaxe 1 name:&bUncommon_Pickaxe lore:&7Rarity:_&bUncommon|&7Category:_&fTool
+    efficiency:3 unbreaking:3 fortune:1
+RarePick:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: DIAMOND_PICKAXE
+    name: '&dRare Pickaxe'
+    glow: false
+    amount: 1
+  commands:
+  - give {name} diamond_pickaxe 1 name:&dRare_Pickaxe lore:&7Rarity:_&dRare|&7Category:_&fTool
+    efficiency:5 unbreaking:3 fortune:3
+UncommonSword:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: DIAMOND_SWORD
+    name: '&bUncommon Sword'
+    glow: false
+    amount: 1
+  commands:
+  - give {name} diamond_sword 1 name:&bUncommon_Sword lore:&7Rarity:_&bUncommon|&7Category:_&fTool
+    sharpness:3 unbreaking:3 looting:1
+RareSword:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: DIAMOND_SWORD
+    name: '&dRare Sword'
+    glow: false
+    amount: 1
+  commands:
+  - give {name} diamond_sword 1 name:&dRare_Sword lore:&7Rarity:_&dRare|&7Category:_&fTool
+    sharpness:5 unbreaking:3 looting:3
+XPBoosterSmall:
+  chance: 1.0
+  rarity: Rare
+  give-display-item: false
+  display-item:
+    material: EXPERIENCE_BOTTLE
+    name: '&dExperience Booster (Small)'
+    amount: 1
+  commands:
+  - iv give {name} XPBoosterSmall 1
+XPBoosterLarge:
+  chance: 0.5
+  rarity: Rare
+  give-display-item: false
+  display-item:
+    material: EXPERIENCE_BOTTLE
+    name: '&dExperience Booster (Large)'
+    amount: 1
+  commands:
+  - iv give {name} XPBoosterLarge 1
+PassiveIncomeBooster:
+  chance: 0.5
+  rarity: Rare
+  give-display-item: false
+  display-item:
+    material: GOLD_INGOT
+    name: '&dPassive Income Booster'
+    amount: 1
+  commands:
+  - iv give {name} PassiveIncomeBooster 1
+LuckBooster:
+  chance: 0.5
+  rarity: Rare
+  give-display-item: false
+  display-item:
+    material: RABBIT_FOOT
+    name: '&dLuck Booster'
+    amount: 1
+  commands:
+  - iv give {name} LuckBooster 1
+ServerXPBoosterSmall:
+  chance: 1.0
+  rarity: Legendary
+  give-display-item: false
+  display-item:
+    material: EXPERIENCE_BOTTLE
+    name: '&eServer Experience Booster (Small)'
+    amount: 1
+  commands:
+  - iv give {name} ServerXPBoosterSmall 1
+ServerXPBoosterLarge:
+  chance: 0.5
+  rarity: Legendary
+  give-display-item: false
+  display-item:
+    material: EXPERIENCE_BOTTLE
+    name: '&eServer Experience Booster (Large)'
+    amount: 1
+  commands:
+  - iv give {name} ServerXPBoosterLarge 1
+ServerPassiveIncomeBooster:
+  chance: 0.5
+  rarity: Legendary
+  give-display-item: false
+  display-item:
+    material: GOLD_INGOT
+    name: '&eServer Passive Income Booster'
+    amount: 1
+  commands:
+  - iv give {name} ServerPassiveIncomeBooster 1
+ServerLuckBooster:
+  chance: 0.5
+  rarity: Legendary
+  give-display-item: false
+  display-item:
+    material: RABBIT_FOOT
+    name: '&eServer Luck Booster'
+    amount: 1
+  commands:
+  - iv give {name} ServerLuckBooster 1
+5TownBlocks:
+  chance: 2.5
+  rarity: Uncommon
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&b5 Bonus Town Blocks'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhkZTI4YTYyNDQxYzM4NGE0ODMyNjIxMjU1YTE5ZGU4NzEyZDc3MDYzNWVmNmY1ODQ0NGU2NTQ3ZWQwMGQ4OCJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - townyadmin givebonus {name} 5
+10TownBlocks:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&d10 Bonus town Blocks'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZkMWE4NzhkOGU4NjNiOGZiYWRkN2MwMGMwYmYyNjY2OGUzYzBlN2NjMzFmNGNjYzlmMTg1YzZhYmZiNmMzIn19fQ=="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - townyadmin givebonus {name} 10
+25TownBlocks:
+  chance: 1.0
+  rarity: Rare
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&d25 Bonus Town Blocks'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAzNTAwZGQwOWI0NTRlYWI5ZjdkZTgzM2RiMTg4YTJmNjVlNWZjZWRmMTI4YWU1MWZmMjgwN2YzZGUyYWVkOCJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - townyadmin givebonus {name} 25
+50TownBlocks:
+  chance: 0.5
+  rarity: Legendary
+  give-display-item:
+    value: false
+  display-item:
+    material: PLAYER_HEAD
+    name: '&e50 Bonus Town Blocks'
+    glow: false
+    amount: 1
+    nbt-tags:
+    - SkullOwner {Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwZTZkOWUyNDI3MzU0ODE5MThjNWZkMTQ0OThiZDc2MGJiOWY0ZmY2NDMwYWQ0Njk2YjM4ZThhODgzZGE5NyJ9fX0="}]},Id:"83c60fdb-e060-424d-8a71-ae41b9d90da0"}
+  commands:
+  - townyadmin givebonus {name} 50
+Farm_Steed:
+  commands:
+  - mountgive %player% farm_steed
+  chance: 20.0
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: LEATHER_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&7Farm Steed'
+    color:
+      red: 160
+      green: 101
+      blue: 64
+Wild_Steed:
+  commands:
+  - mountgive %player% wild_steed
+  chance: 15.0
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: LEATHER_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&7Wild Steed'
+    color:
+      red: 160
+      green: 101
+      blue: 64
+Swift_Steed:
+  commands:
+  - mountgive %player% swift_steed
+  chance: 5.0
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: IRON_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&rSwift Steed'
+Trusty_Steed:
+  commands:
+  - mountgive %player% trusty_steed
+  chance: 10.0
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: IRON_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&rTrusty Steed'
+Royal_Steed:
+  commands:
+  - mountgive %player% royal_steed
+  chance: 2.5
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: GOLDEN_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&bRoyal Steed'
+Racing_Steed:
+  commands:
+  - mountgive %player% racing_steed
+  chance: 1.0
+  rarity: default
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: GOLDEN_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&bRacing Steed'
+Warhorse:
+  commands:
+  - mountgive %player% warhorse
+  chance: 0.25
+  rarity: legendary
+  give-display-item:
+    value: false
+    with-lore: false
+    with-name: false
+  display-item:
+    material: DIAMOND_HORSE_ARMOR
+    glow: false
+    amount: 1
+    name: '&eWarhorse'
