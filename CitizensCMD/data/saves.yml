@@ -1,0 +1,55 @@
+npc-data:
+  npc-1:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Shopkeeper1 %p%'
+    left-click-commands: []
+    price: 0
+  npc-2:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Blacksmith1 %p%'
+    left-click-commands: []
+    price: 0
+  npc-3:
+    cooldown: 0
+    right-click-commands:
+    - '[player] ranks'
+    left-click-commands: []
+    price: 0
+  npc-4:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Keyshop %p%'
+    left-click-commands: []
+    price: 0
+  npc-5:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Blacksmith1 %player%'
+    left-click-commands: []
+    price: 0
+  npc-7:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Blacksmith1 %player%'
+    left-click-commands: []
+    price: 0
+  npc-6:
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Stablemaster %player%'
+    left-click-commands: []
+    price: 0
+  npc-8:
+    cooldown: 0
+    left-click-commands: []
+    price: 0
+    right-click-commands:
+    - '[console] shop open Stablemaster %player%'
+  npc-9:
+    left-click-commands: []
+    cooldown: 0
+    right-click-commands:
+    - '[console] shop open Stablemaster %player%'
+    price: 0.0
