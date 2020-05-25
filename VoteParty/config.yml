@@ -1,0 +1,186 @@
+# VoteParty
+# Creator: Clip & Glare
+# Contributors: https://github.com/VoteParty/VoteParty/graphs/contributors
+# Issues: https://github.com/VoteParty/VoteParty/issues
+# Spigot: https://www.spigotmc.org/resources/987/
+# Wiki: https://wiki.helpch.at/glares-plugins/voteparty
+# Discord: https://helpch.at/discord
+settings:
+    # The default language of the plugin
+    language: en-US
+    # The prefix of all the messages in the plugin
+    prefix: '&3AR &7» &f'
+    counter:
+        # It is suggested that you don't modify this value manually.
+        # Every X seconds, this value will update to the latest known amount of votes.
+        # This allows you to persist vote counts through reboots.
+        votes: 55
+        # How often to save the current amount of votes (in seconds)
+        save-interval: 300
+# The hook part of the config allows you to configure which plugins you would like to hook into for votes.
+# By default, the plugin will utilize NuVotifier and listen for it's vote events.
+# If you would like to use the plugin without NuVotifier, just disable the hook!
+# NOTE: Keep in mind that without being hooked into a vote plugin, the plugin will not automatically handle votes.
+# You will be required to do everything manually.
+# Over time, more plugins may become supported!
+hooks:
+    # Would you like to listen to NuVotifier for incoming votes?
+    nuvotifier: true
+crate:
+    enabled: true
+    lore: 
+    - ''
+    - '&7Place the chest in order to'
+    - '&7to receive rewards!'
+    - ''
+    material: CHEST
+    name: '&d&lVote&5&lParty &f&lCrate'
+# Configuration for particle effects you can play
+# throughout different parts of the plugin
+effects:
+    # Configuration for particles when party commands are being executed
+    party_commands_execute:
+        enable: true
+        effects: 
+        - SMOKE_NORMAL
+        - HEART
+        offsetX: 0.0
+        offsetY: 0.0
+        offsetZ: 0.0
+        speed: 0.1
+        count: 2
+    # Configuration for particles when a party starts
+    party_start:
+        enable: true
+        effects: 
+        - SMOKE_NORMAL
+        - HEART
+        offsetX: 0.0
+        offsetY: 0.0
+        offsetZ: 0.0
+        speed: 0.1
+        count: 2
+    # Configuration for particles when a player votes
+    vote:
+        enable: true
+        effects: 
+        - SMOKE_NORMAL
+        - HEART
+        offsetX: 0.0
+        offsetY: 0.0
+        offsetZ: 0.0
+        speed: 0.1
+        count: 2
+party:
+    # The amount of votes needed for a party to occur
+    votes_needed: 100
+    # The list of worlds where party rewards won't be given
+    disabled_worlds: 
+    - ''
+    # Choose to allow offline votes count towards the party
+    offline_votes: true
+    # The amount of time (in seconds) the server will wait to start the party after the amount needed has been achieved
+    start_delay: 15
+    # The amount of time (in seconds) the server will wait between executing reward commands
+    command_delay: 1
+    # Configuration for chance rewards to be given during a party.
+    # Add as many commands as you want, set their chance, and choose the max amount a player can earn!
+    reward_commands:
+        enabled: true
+        max_possible: 2
+        commands: 
+        - chance: 25
+          command: eco give %player_name% 25
+        - chance: 10
+          command: eco give %player_name% 50
+        - chance: 5
+          command: eco give %player_name% 100
+    # Configuration for extra commands to be executed on players who have specific permission nodes when a party happens
+    permission-rewards:
+        enabled: true
+        permCommands: 
+        - permission: votes.stranger
+          commands:
+          - eco give %player_name% 50
+        - permission: votes.wanderer
+          commands:
+          - eco give %player_name% 75
+        - permission: votes.citizen
+          commands:
+          - eco give %player_name% 100
+        - permission: votes.denizen
+          commands:
+          - eco give %player_name% 125
+        - permission: votes.renowned
+          commands:
+          - eco give %player_name% 150
+        - permission: votes.noble
+          commands:
+          - eco give %player_name% 200
+    # A list of rewards that will ALWAYS be given to a player during a party
+    guaranteed_rewards:
+        enabled: true
+        commands: 
+        - redeem add %player_name% 5
+        - scrates givekey CommonCrate %player_name% 5 -v
+    # Commands to be executed before a party is started
+    pre_party_commands:
+        enabled: true
+        commands: 
+        - broadcast A vote party has been achieved and will start soon!
+    # Commands to be executed when a party has started
+    party_commands:
+        enabled: true
+        commands: 
+        - broadcast A vote party has started!
+voting:
+    # Configuration for chance rewards to be given for voting.
+    # Add as many commands as you want, set their chance, and choose the max amount a player can earn!
+    per_vote_rewards:
+        enabled: false
+        max_possible: 1
+        commands: 
+        - chance: 25
+          command: eco give %player_name% 25
+        - chance: 10
+          command: eco give %player_name% 50
+    # Configuration for extra commands to be executed on players who have specific permission nodes
+    permission-rewards:
+        enabled: true
+        permCommands: 
+        - permission: votes.stranger
+          commands:
+          - eco give %player_name% 5
+        - permission: votes.wanderer
+          commands:
+          - eco give %player_name% 5
+        - permission: votes.citizen
+          commands:
+          - eco give %player_name% 10
+        - permission: votes.denizen
+          commands:
+          - eco give %player_name% 10
+        - permission: votes.renowned
+          commands:
+          - eco give %player_name% 15
+        - permission: votes.noble
+          commands:
+          - eco give %player_name% 20
+    # A list of rewards that will ALWAYS be given to a player for voting
+    guaranteed_rewards:
+        enabled: true
+        commands: 
+        - redeem add %player_name% 1
+        - scrates givekey CommonCrate %player_name% 1 -v
+    # Global commands (such as a broadcast message) to be executed when a player votes
+    global_commands:
+        enabled: true
+        commands: 
+        - broadcast %player_name% just voted for &bmoney&f, &ba Common Key&f, and &b1 mcMMO
+          credit&f (%voteparty_votes_required_party% left)!
+    offline_vote_claiming:
+        # Would you like players to be able to claim rewards for offline votes?
+        # Note: They will only be able to get credit for rewards if you have `offline_votes` enabled
+        enabled: true
+        # Would you like to notify the player when they login that they have votes to claim?
+        notify: true
